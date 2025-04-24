@@ -1,0 +1,166 @@
+{
+    "playerId": 8476455,
+    "isActive": true,
+    "currentTeamId": 21,
+    "currentTeamAbbrev": "COL",
+    "fullTeamName": {
+        "default": "Colorado Avalanche",
+        "fr": "Avalanche du Colorado"
+    },
+    "teamCommonName": {
+        "default": "Avalanche"
+    },
+    "teamPlaceNameWithPreposition": {
+        "default": "Colorado",
+        "fr": "du Colorado"
+    },
+    "firstName": {
+        "default": "Gabriel"
+    },
+    "lastName": {
+        "default": "Landeskog"
+    },
+    "badges": [],
+    "teamLogo": "https://assets.nhle.com/logos/nhl/svg/COL_light.svg",
+    "sweaterNumber": 92,
+    "position": "L",
+    "headshot": "https://assets.nhle.com/mugs/nhl/20242025/COL/8476455.png",
+    "heroImage": "https://assets.nhle.com/mugs/actionshots/1296x729/8476455.jpg",
+    "heightInInches": 73,
+    "heightInCentimeters": 185,
+    "weightInPounds": 215,
+    "weightInKilograms": 98,
+    "birthDate": "1992-11-23",
+    "birthCity": {
+        "default": "Stockholm",
+        "fi": "Tukholma"
+    },
+    "birthCountry": "SWE",
+    "shootsCatches": "L",
+    "draftDetails": {
+        "year": 2011,
+        "teamAbbrev": "COL",
+        "round": 1,
+        "pickInRound": 2,
+        "overallPick": 2
+    },
+    "playerSlug": "gabriel-landeskog-8476455",
+    "inTop100AllTime": 0,
+    "inHHOF": 0,
+    "featuredStats": {
+        "season": 20242025,
+        "playoffs": {
+            "subSeason": {
+                "assists": 0,
+                "gameWinningGoals": 0,
+                "gamesPlayed": 1,
+                "goals": 0,
+                "otGoals": 0,
+                "pim": 0,
+                "plusMinus": 0,
+                "points": 0,
+                "powerPlayGoals": 0,
+                "powerPlayPoints": 0,
+                "shootingPctg": 0.0,
+                "shorthandedGoals": 0,
+                "shorthandedPoints": 0,
+                "shots": 0
+            },
+            "career": {
+                "assists": 40,
+                "gameWinningGoals": 4,
+                "gamesPlayed": 70,
+                "goals": 27,
+                "otGoals": 1,
+                "pim": 53,
+                "plusMinus": 15,
+                "points": 67,
+                "powerPlayGoals": 8,
+                "powerPlayPoints": 21,
+                "shootingPctg": 0.1413,
+                "shorthandedGoals": 0,
+                "shorthandedPoints": 0,
+                "shots": 191
+            }
+        }
+    },
+    "careerTotals": {
+        "regularSeason": {
+            "assists": 323,
+            "avgToi": "19:25",
+            "faceoffWinningPctg": 0.5327000000000001,
+            "gameWinningGoals": 43,
+            "gamesPlayed": 738,
+            "goals": 248,
+            "otGoals": 7,
+            "pim": 601,
+            "plusMinus": 77,
+            "points": 571,
+            "powerPlayGoals": 68,
+            "powerPlayPoints": 150,
+            "shootingPctg": 0.1222,
+            "shorthandedGoals": 5,
+            "shorthandedPoints": 10,
+            "shots": 2029
+        },
+        "playoffs": {
+            "assists": 40,
+            "avgToi": "20:54",
+            "faceoffWinningPctg": 0.5405,
+            "gameWinningGoals": 4,
+            "gamesPlayed": 70,
+            "goals": 27,
+            "otGoals": 1,
+            "pim": 53,
+            "plusMinus": 15,
+            "points": 67,
+            "powerPlayGoals": 8,
+            "powerPlayPoints": 21,
+            "shootingPctg": 0.1413,
+            "shorthandedGoals": 0,
+            "shorthandedPoints": 0,
+            "shots": 191
+        }
+    },
+    "awards": [
+        {
+            "trophy": {
+                "default": "Stanley Cup"
+            },
+            "seasons": [
+                {
+                    "assists": 11,
+                    "blockedShots": 22,
+                    "gameTypeId": 3,
+                    "gamesPlayed": 20,
+                    "goals": 11,
+                    "hits": 63,
+                    "pim": 6,
+                    "plusMinus": 15,
+                    "points": 22,
+                    "seasonId": 20212022
+                }
+            ]
+        },
+        {
+            "trophy": {
+                "default": "Calder Memorial Trophy",
+                "fr": "Trophée Calder"
+            },
+            "seasons": [
+                {
+                    "assists": 30,
+                    "blockedShots": 58,
+                    "gameTypeId": 2,
+                    "gamesPlayed": 82,
+                    "goals": 22,
+                    "hits": 219,
+                    "pim": 51,
+                    "plusMinus": 20,
+                    "points": 52,
+                    "seasonId": 20112012
+                }
+            ]
+        }
+    ],
+}
