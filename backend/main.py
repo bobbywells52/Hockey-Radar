@@ -6,7 +6,7 @@ import uvicorn
 app = FastAPI(debug=True)
 
 origins = [
-    "http://localhost:3000",
+    "http://localhost:5173",
     # Add more origins here
 ]
 
@@ -32,6 +32,18 @@ async def say_hello(name: str):
 async def get_player_data(player_id: int):
     url = f"https://api-web.nhle.com/v1/player/{player_id}/landing?player_id={player_id}"
 
+    async with httpx.AsyncClient() as client:
+        try:
+            response = await client.get(url)
+            response.raise_for_status()
+            return response.json()
+        except httpx.HTTPError as e:
+            raise HTTPException(status_code=500, detail=str(e))
+
+
+@app.get("/nhl/team")
+async def get_team_data(team_code: str):
+    url = f"https://api-web.nhle.com/v1/roster/{team_code}/current"
     async with httpx.AsyncClient() as client:
         try:
             response = await client.get(url)
