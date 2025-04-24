@@ -1,11 +1,14 @@
 import {useEffect, useState} from 'react';
 import api from "../api.js";
 import {Player} from "../Types.tsx";
+import styles from "./  PlayerCard.module.css"
 
 function PlayerCard(){
 
   const [player, setPlayer] = useState <Player | null >(null);
-  const playerId = 8476455;
+  //const [playerId, setPlayerId] = useState <number | null>(null);
+    const playerId = 8471214;
+
 
   useEffect(() => {
     const fetchPlayer = async () => {
@@ -24,24 +27,30 @@ function PlayerCard(){
     if (playerId) {
       fetchPlayer();
     }
-  }, []);
+  }, [playerId]);
 
   return (
-    <div>
-      {player ? (
-        <div>
-          <h2>{player.firstName.default}</h2>
-            <h2>{player.lastName.default}</h2>
-            <h2>{player.sweaterNumber}</h2>
-            <h2>Career total goals: {player.careerTotals.regularSeason.goals}</h2>
-          {/* render more player info here */}
-        </div>
-      ) : (
-        <p>Loading player data...</p>
-      )}
+  <div style={{ display: 'flex', justifyContent: 'center', padding: '1rem' }}>
+    {player ? (
+ <div className={styles.card}>
+      <img
+        src={player.headshot}
+        alt={`${player.firstName.default} ${player.lastName.default} headshot`}
+        className={styles.headshot}
+      />
+      <h2 className={styles.name}>
+        {player.firstName.default} {player.lastName.default}
+      </h2>
+      <p className={styles.number}>#{player.sweaterNumber}</p>
+      <p className={styles.goals}>
+        <strong>Career Goals:</strong> {player.careerTotals.regularSeason.goals}
+      </p>
     </div>
-  );
-
+    ) : (
+      <p>Loading player data...</p>
+    )}
+  </div>
+);
 };
 
 export default PlayerCard;
