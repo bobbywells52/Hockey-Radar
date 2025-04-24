@@ -3,18 +3,17 @@ import api from "../api.js";
 import {Player} from "../Types.tsx";
 import styles from "./  PlayerCard.module.css"
 
-function PlayerCard(){
+interface PlayerCardProps{
+    playerId: number;
+}
 
+function PlayerCard({playerId}:PlayerCardProps){
   const [player, setPlayer] = useState <Player | null >(null);
-  //const [playerId, setPlayerId] = useState <number | null>(null);
-    const playerId = 8471214;
-
-
   useEffect(() => {
     const fetchPlayer = async () => {
       try {
         const response = await api.get(`nhl/player/`, {
-          params: { player_id: playerId }
+          params: {player_id: playerId}
         });
         setPlayer(response.data);
         console.log(typeof response.data.firstName)
