@@ -4,6 +4,7 @@ import {Player} from "../Types.tsx";
 import styles from "./  PlayerCard.module.css"
 import FrontCard from "./FrontCard.tsx";
 
+
 interface PlayerCardProps {
     playerId: number | null;
 }
