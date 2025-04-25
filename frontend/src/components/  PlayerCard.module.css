@@ -1,36 +1,85 @@
+/* Container that holds the cards */
+.gridContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.5rem;
+  padding: 2rem;
+  justify-items: center;
+  align-items: stretch;
+  transition: filter 0.3s ease; /* Smooth transition for blur */
+}
+
+/* Apply blur effect to the grid container when any card is hovered */
+.gridContainer:hover {
+  filter: blur(4px); /* This blurs the entire background */
+}
+
 .card {
+  position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
-  max-width: 300px;
-  padding: 1.5rem;
-  border: 1px solid #ccc;
-  border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-  background-color: #fff;
-  text-align: center;
   width: 100%;
+  aspect-ratio: 3 / 4;
+  background: linear-gradient(to bottom, #e5e5e5, #ffffff);
+  border: 4px solid #002868;
+  border-radius: 12px;
+  padding: 1rem;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  font-family: 'Arial Black', sans-serif;
+  text-align: center;
+  box-sizing: border-box;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, z-index 0s ease; /* Adding z-index transition */
+  z-index: 1; /* Default z-index for normal state */
+}
+
+/* Hover effect for cards - scales and centers */
+@media (min-width: 601px) {
+  .card:hover {
+    transform: scale(1.1); /* Scales the card to make it larger */
+    z-index: 10; /* Ensure hovered card is on top */
+  }
 }
 
 .headshot {
   width: 100%;
-  max-width: 150px;
+  max-width: 180px;
   border-radius: 8px;
+  border: 3px solid #bf0a30;
   margin-bottom: 1rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
 .name {
+  font-size: 1.25rem;
+  color: #002868;
   margin: 0.25rem 0;
-  color: darkred;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+
+.team {
+  font-size: 1rem;
+  color: #444;
+  margin-bottom: 0.5rem;
 }
 
 .number {
-  margin: 0.25rem 0;
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  background-color: #bf0a30;
+  color: white;
+  padding: 0.3rem 0.6rem;
+  border-radius: 6px;
+  font-size: 0.9rem;
   font-weight: bold;
-  color: darkred;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
 }
 
-.goals {
-  margin-top: 0.5rem;
-  color: darkred;
+.logo {
+  width: 75px;
+  height: 75px;
+  object-fit: contain;
+  margin-top: 0.25rem;
 }

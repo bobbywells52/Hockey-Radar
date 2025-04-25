@@ -1,0 +1,3166 @@
+[
+  {
+    "Player Name": "Leo Carlsson",
+    "Player ID": 8484153
+  },
+  {
+    "Player Name": "Robby Fabbri",
+    "Player ID": 8477952
+  },
+  {
+    "Player Name": "Cutter Gauthier",
+    "Player ID": 8483445
+  },
+  {
+    "Player Name": "Jansen Harkins",
+    "Player ID": 8478424
+  },
+  {
+    "Player Name": "Ross Johnston",
+    "Player ID": 8477527
+  },
+  {
+    "Player Name": "Alex Killorn",
+    "Player ID": 8473986
+  },
+  {
+    "Player Name": "Brett Leason",
+    "Player ID": 8481517
+  },
+  {
+    "Player Name": "Isac Lundestrom",
+    "Player ID": 8480806
+  },
+  {
+    "Player Name": "Brock McGinn",
+    "Player ID": 8476934
+  },
+  {
+    "Player Name": "Mason McTavish",
+    "Player ID": 8482745
+  },
+  {
+    "Player Name": "Ryan Strome",
+    "Player ID": 8476458
+  },
+  {
+    "Player Name": "Troy Terry",
+    "Player ID": 8478873
+  },
+  {
+    "Player Name": "Frank Vatrano",
+    "Player ID": 8478366
+  },
+  {
+    "Player Name": "Tim Washe",
+    "Player ID": 8485512
+  },
+  {
+    "Player Name": "Trevor Zegras",
+    "Player ID": 8481533
+  },
+  {
+    "Player Name": "Radko Gudas",
+    "Player ID": 8475462
+  },
+  {
+    "Player Name": "Drew Helleson",
+    "Player ID": 8481563
+  },
+  {
+    "Player Name": "Oliver Kylington",
+    "Player ID": 8478430
+  },
+  {
+    "Player Name": "Jackson LaCombe",
+    "Player ID": 8481605
+  },
+  {
+    "Player Name": "Pavel Mintyukov",
+    "Player ID": 8483490
+  },
+  {
+    "Player Name": "Ian Moore",
+    "Player ID": 8482178
+  },
+  {
+    "Player Name": "Jacob Trouba",
+    "Player ID": 8476885
+  },
+  {
+    "Player Name": "Olen Zellweger",
+    "Player ID": 8482803
+  },
+  {
+    "Player Name": "Lukas Dostal",
+    "Player ID": 8480843
+  },
+  {
+    "Player Name": "John Gibson",
+    "Player ID": 8476434
+  },
+  {
+    "Player Name": "John Beecher",
+    "Player ID": 8481556
+  },
+  {
+    "Player Name": "Morgan Geekie",
+    "Player ID": 8479987
+  },
+  {
+    "Player Name": "Mark Kastelic",
+    "Player ID": 8480355
+  },
+  {
+    "Player Name": "Marat Khusnutdinov",
+    "Player ID": 8482177
+  },
+  {
+    "Player Name": "Cole Koepke",
+    "Player ID": 8481043
+  },
+  {
+    "Player Name": "Jakub Lauko",
+    "Player ID": 8480880
+  },
+  {
+    "Player Name": "Elias Lindholm",
+    "Player ID": 8477496
+  },
+  {
+    "Player Name": "Casey Mittelstadt",
+    "Player ID": 8479999
+  },
+  {
+    "Player Name": "David Pastrnak",
+    "Player ID": 8477956
+  },
+  {
+    "Player Name": "Pavel Zacha",
+    "Player ID": 8478401
+  },
+  {
+    "Player Name": "Henri Jokiharju",
+    "Player ID": 8480035
+  },
+  {
+    "Player Name": "Hampus Lindholm",
+    "Player ID": 8476854
+  },
+  {
+    "Player Name": "Mason Lohrei",
+    "Player ID": 8482511
+  },
+  {
+    "Player Name": "Charlie McAvoy",
+    "Player ID": 8479325
+  },
+  {
+    "Player Name": "Andrew Peeke",
+    "Player ID": 8479369
+  },
+  {
+    "Player Name": "Parker Wotherspoon",
+    "Player ID": 8478450
+  },
+  {
+    "Player Name": "Nikita Zadorov",
+    "Player ID": 8477507
+  },
+  {
+    "Player Name": "Joonas Korpisalo",
+    "Player ID": 8476914
+  },
+  {
+    "Player Name": "Jeremy Swayman",
+    "Player ID": 8480280
+  },
+  {
+    "Player Name": "Zach Benson",
+    "Player ID": 8484145
+  },
+  {
+    "Player Name": "Jordan Greenway",
+    "Player ID": 8478413
+  },
+  {
+    "Player Name": "Peyton Krebs",
+    "Player ID": 8481522
+  },
+  {
+    "Player Name": "Sam Lafferty",
+    "Player ID": 8478043
+  },
+  {
+    "Player Name": "Beck Malenstyn",
+    "Player ID": 8479359
+  },
+  {
+    "Player Name": "Ryan McLeod",
+    "Player ID": 8480802
+  },
+  {
+    "Player Name": "Josh Norris",
+    "Player ID": 8480064
+  },
+  {
+    "Player Name": "JJ Peterka",
+    "Player ID": 8482175
+  },
+  {
+    "Player Name": "Jack Quinn",
+    "Player ID": 8482097
+  },
+  {
+    "Player Name": "Tage Thompson",
+    "Player ID": 8479420
+  },
+  {
+    "Player Name": "Alex Tuch",
+    "Player ID": 8477949
+  },
+  {
+    "Player Name": "Jason Zucker",
+    "Player ID": 8475722
+  },
+  {
+    "Player Name": "Jacob Bernard-Docker",
+    "Player ID": 8480879
+  },
+  {
+    "Player Name": "Jacob Bryson",
+    "Player ID": 8480196
+  },
+  {
+    "Player Name": "Bowen Byram",
+    "Player ID": 8481524
+  },
+  {
+    "Player Name": "Connor Clifton",
+    "Player ID": 8477365
+  },
+  {
+    "Player Name": "Rasmus Dahlin",
+    "Player ID": 8480839
+  },
+  {
+    "Player Name": "Owen Power",
+    "Player ID": 8482671
+  },
+  {
+    "Player Name": "Mattias Samuelsson",
+    "Player ID": 8480807
+  },
+  {
+    "Player Name": "Ukko-Pekka Luukkonen",
+    "Player ID": 8480045
+  },
+  {
+    "Player Name": "James Reimer",
+    "Player ID": 8473503
+  },
+  {
+    "Player Name": "Mikael Backlund",
+    "Player ID": 8474150
+  },
+  {
+    "Player Name": "Blake Coleman",
+    "Player ID": 8476399
+  },
+  {
+    "Player Name": "Matt Coronato",
+    "Player ID": 8482679
+  },
+  {
+    "Player Name": "Joel Farabee",
+    "Player ID": 8480797
+  },
+  {
+    "Player Name": "Morgan Frost",
+    "Player ID": 8480028
+  },
+  {
+    "Player Name": "Jonathan Huberdeau",
+    "Player ID": 8476456
+  },
+  {
+    "Player Name": "Nazem Kadri",
+    "Player ID": 8475172
+  },
+  {
+    "Player Name": "Justin Kirkland",
+    "Player ID": 8477993
+  },
+  {
+    "Player Name": "Ryan Lomberg",
+    "Player ID": 8479066
+  },
+  {
+    "Player Name": "Anthony Mantha",
+    "Player ID": 8477511
+  },
+  {
+    "Player Name": "Martin Pospisil",
+    "Player ID": 8481028
+  },
+  {
+    "Player Name": "Kevin Rooney",
+    "Player ID": 8479291
+  },
+  {
+    "Player Name": "Yegor Sharangovich",
+    "Player ID": 8481068
+  },
+  {
+    "Player Name": "Aydar Suniev",
+    "Player ID": 8484234
+  },
+  {
+    "Player Name": "Connor Zary",
+    "Player ID": 8482074
+  },
+  {
+    "Player Name": "Rasmus Andersson",
+    "Player ID": 8478397
+  },
+  {
+    "Player Name": "Kevin Bahl",
+    "Player ID": 8480860
+  },
+  {
+    "Player Name": "Jake Bean",
+    "Player ID": 8479402
+  },
+  {
+    "Player Name": "Joel Hanley",
+    "Player ID": 8477810
+  },
+  {
+    "Player Name": "Daniil Miromanov",
+    "Player ID": 8482624
+  },
+  {
+    "Player Name": "Brayden Pachal",
+    "Player ID": 8481167
+  },
+  {
+    "Player Name": "Zayne Parekh",
+    "Player ID": 8484768
+  },
+  {
+    "Player Name": "Ilya Solovyov",
+    "Player ID": 8482470
+  },
+  {
+    "Player Name": "MacKenzie Weegar",
+    "Player ID": 8477346
+  },
+  {
+    "Player Name": "Dan Vladar",
+    "Player ID": 8478435
+  },
+  {
+    "Player Name": "Dustin Wolf",
+    "Player ID": 8481692
+  },
+  {
+    "Player Name": "Sebastian Aho",
+    "Player ID": 8478427
+  },
+  {
+    "Player Name": "Jackson Blake",
+    "Player ID": 8482809
+  },
+  {
+    "Player Name": "William Carrier",
+    "Player ID": 8477478
+  },
+  {
+    "Player Name": "Taylor Hall",
+    "Player ID": 8475791
+  },
+  {
+    "Player Name": "Mark Jankowski",
+    "Player ID": 8476873
+  },
+  {
+    "Player Name": "Seth Jarvis",
+    "Player ID": 8482093
+  },
+  {
+    "Player Name": "Tyson Jost",
+    "Player ID": 8479370
+  },
+  {
+    "Player Name": "Jesperi Kotkaniemi",
+    "Player ID": 8480829
+  },
+  {
+    "Player Name": "Jordan Martinook",
+    "Player ID": 8476921
+  },
+  {
+    "Player Name": "Eric Robinson",
+    "Player ID": 8480762
+  },
+  {
+    "Player Name": "Jack Roslovic",
+    "Player ID": 8478458
+  },
+  {
+    "Player Name": "Jordan Staal",
+    "Player ID": 8473533
+  },
+  {
+    "Player Name": "Logan Stankoven",
+    "Player ID": 8482702
+  },
+  {
+    "Player Name": "Andrei Svechnikov",
+    "Player ID": 8480830
+  },
+  {
+    "Player Name": "Brent Burns",
+    "Player ID": 8470613
+  },
+  {
+    "Player Name": "Jalen Chatfield",
+    "Player ID": 8478970
+  },
+  {
+    "Player Name": "Shayne Gostisbehere",
+    "Player ID": 8476906
+  },
+  {
+    "Player Name": "Dmitry Orlov",
+    "Player ID": 8475200
+  },
+  {
+    "Player Name": "Jaccob Slavin",
+    "Player ID": 8476958
+  },
+  {
+    "Player Name": "Riley Stillman",
+    "Player ID": 8479388
+  },
+  {
+    "Player Name": "Sean Walker",
+    "Player ID": 8480336
+  },
+  {
+    "Player Name": "Frederik Andersen",
+    "Player ID": 8475883
+  },
+  {
+    "Player Name": "Pyotr Kochetkov",
+    "Player ID": 8481611
+  },
+  {
+    "Player Name": "Connor Bedard",
+    "Player ID": 8484144
+  },
+  {
+    "Player Name": "Tyler Bertuzzi",
+    "Player ID": 8477479
+  },
+  {
+    "Player Name": "Jason Dickinson",
+    "Player ID": 8477450
+  },
+  {
+    "Player Name": "Ryan Donato",
+    "Player ID": 8477987
+  },
+  {
+    "Player Name": "Nick Foligno",
+    "Player ID": 8473422
+  },
+  {
+    "Player Name": "Ryan Greene",
+    "Player ID": 8483450
+  },
+  {
+    "Player Name": "Philipp Kurashev",
+    "Player ID": 8480798
+  },
+  {
+    "Player Name": "Patrick Maroon",
+    "Player ID": 8474034
+  },
+  {
+    "Player Name": "Ilya Mikheyev",
+    "Player ID": 8481624
+  },
+  {
+    "Player Name": "Oliver Moore",
+    "Player ID": 8484197
+  },
+  {
+    "Player Name": "Frank Nazar",
+    "Player ID": 8483493
+  },
+  {
+    "Player Name": "Lukas Reichel",
+    "Player ID": 8482117
+  },
+  {
+    "Player Name": "Landon Slaggert",
+    "Player ID": 8482172
+  },
+  {
+    "Player Name": "Teuvo Teravainen",
+    "Player ID": 8476882
+  },
+  {
+    "Player Name": "Joe Veleno",
+    "Player ID": 8480813
+  },
+  {
+    "Player Name": "TJ Brodie",
+    "Player ID": 8474673
+  },
+  {
+    "Player Name": "Louis Crevier",
+    "Player ID": 8481806
+  },
+  {
+    "Player Name": "Wyatt Kaiser",
+    "Player ID": 8482176
+  },
+  {
+    "Player Name": "Artyom Levshunov",
+    "Player ID": 8484783
+  },
+  {
+    "Player Name": "Alec Martinez",
+    "Player ID": 8474166
+  },
+  {
+    "Player Name": "Connor Murphy",
+    "Player ID": 8476473
+  },
+  {
+    "Player Name": "Sam Rinzel",
+    "Player ID": 8483506
+  },
+  {
+    "Player Name": "Alex Vlasic",
+    "Player ID": 8481568
+  },
+  {
+    "Player Name": "Spencer Knight",
+    "Player ID": 8481519
+  },
+  {
+    "Player Name": "Arvid Soderblom",
+    "Player ID": 8482821
+  },
+  {
+    "Player Name": "Ross Colton",
+    "Player ID": 8479525
+  },
+  {
+    "Player Name": "Charlie Coyle",
+    "Player ID": 8475745
+  },
+  {
+    "Player Name": "Jonathan Drouin",
+    "Player ID": 8477494
+  },
+  {
+    "Player Name": "Jack Drury",
+    "Player ID": 8480835
+  },
+  {
+    "Player Name": "Parker Kelly",
+    "Player ID": 8480448
+  },
+  {
+    "Player Name": "Joel Kiviranta",
+    "Player ID": 8481641
+  },
+  {
+    "Player Name": "Gabriel Landeskog",
+    "Player ID": 8476455
+  },
+  {
+    "Player Name": "Artturi Lehkonen",
+    "Player ID": 8477476
+  },
+  {
+    "Player Name": "Nathan MacKinnon",
+    "Player ID": 8477492
+  },
+  {
+    "Player Name": "Martin Necas",
+    "Player ID": 8480039
+  },
+  {
+    "Player Name": "Brock Nelson",
+    "Player ID": 8475754
+  },
+  {
+    "Player Name": "Valeri Nichushkin",
+    "Player ID": 8477501
+  },
+  {
+    "Player Name": "Logan O'Connor",
+    "Player ID": 8481186
+  },
+  {
+    "Player Name": "Jimmy Vesey",
+    "Player ID": 8476918
+  },
+  {
+    "Player Name": "Miles Wood",
+    "Player ID": 8477425
+  },
+  {
+    "Player Name": "Samuel Girard",
+    "Player ID": 8479398
+  },
+  {
+    "Player Name": "Erik Johnson",
+    "Player ID": 8473446
+  },
+  {
+    "Player Name": "Ryan Lindgren",
+    "Player ID": 8479324
+  },
+  {
+    "Player Name": "Cale Makar",
+    "Player ID": 8480069
+  },
+  {
+    "Player Name": "Sam Malinski",
+    "Player ID": 8484258
+  },
+  {
+    "Player Name": "Josh Manson",
+    "Player ID": 8476312
+  },
+  {
+    "Player Name": "Keaton Middleton",
+    "Player ID": 8479387
+  },
+  {
+    "Player Name": "Devon Toews",
+    "Player ID": 8478038
+  },
+  {
+    "Player Name": "Mackenzie Blackwood",
+    "Player ID": 8478406
+  },
+  {
+    "Player Name": "Scott Wedgewood",
+    "Player ID": 8475809
+  },
+  {
+    "Player Name": "Zachary Aston-Reese",
+    "Player ID": 8479944
+  },
+  {
+    "Player Name": "Yegor Chinakhov",
+    "Player ID": 8482475
+  },
+  {
+    "Player Name": "Justin Danforth",
+    "Player ID": 8479941
+  },
+  {
+    "Player Name": "Adam Fantilli",
+    "Player ID": 8484166
+  },
+  {
+    "Player Name": "Christian Fischer",
+    "Player ID": 8478432
+  },
+  {
+    "Player Name": "Boone Jenner",
+    "Player ID": 8476432
+  },
+  {
+    "Player Name": "Kent Johnson",
+    "Player ID": 8482660
+  },
+  {
+    "Player Name": "Luke Kunin",
+    "Player ID": 8479316
+  },
+  {
+    "Player Name": "Sean Kuraly",
+    "Player ID": 8476374
+  },
+  {
+    "Player Name": "Kevin Labanc",
+    "Player ID": 8478099
+  },
+  {
+    "Player Name": "Kirill Marchenko",
+    "Player ID": 8480893
+  },
+  {
+    "Player Name": "Sean Monahan",
+    "Player ID": 8477497
+  },
+  {
+    "Player Name": "Mathieu Olivier",
+    "Player ID": 8479671
+  },
+  {
+    "Player Name": "Cole Sillinger",
+    "Player ID": 8482705
+  },
+  {
+    "Player Name": "James van Riemsdyk",
+    "Player ID": 8474037
+  },
+  {
+    "Player Name": "Dmitri Voronkov",
+    "Player ID": 8481716
+  },
+  {
+    "Player Name": "Jack Williams",
+    "Player ID": 8485469
+  },
+  {
+    "Player Name": "Jake Christiansen",
+    "Player ID": 8481161
+  },
+  {
+    "Player Name": "Dante Fabbro",
+    "Player ID": 8479371
+  },
+  {
+    "Player Name": "Erik Gudbranson",
+    "Player ID": 8475790
+  },
+  {
+    "Player Name": "Jordan Harris",
+    "Player ID": 8480887
+  },
+  {
+    "Player Name": "Jack Johnson",
+    "Player ID": 8471677
+  },
+  {
+    "Player Name": "Ivan Provorov",
+    "Player ID": 8478500
+  },
+  {
+    "Player Name": "Damon Severson",
+    "Player ID": 8476923
+  },
+  {
+    "Player Name": "Zach Werenski",
+    "Player ID": 8478460
+  },
+  {
+    "Player Name": "Elvis Merzlikins",
+    "Player ID": 8478007
+  },
+  {
+    "Player Name": "Daniil Tarasov",
+    "Player ID": 8480193
+  },
+  {
+    "Player Name": "Jamie Benn",
+    "Player ID": 8473994
+  },
+  {
+    "Player Name": "Colin Blackwell",
+    "Player ID": 8476278
+  },
+  {
+    "Player Name": "Mavrik Bourque",
+    "Player ID": 8482145
+  },
+  {
+    "Player Name": "Oskar Bäck",
+    "Player ID": 8480840
+  },
+  {
+    "Player Name": "Evgenii Dadonov",
+    "Player ID": 8474149
+  },
+  {
+    "Player Name": "Matt Duchene",
+    "Player ID": 8475168
+  },
+  {
+    "Player Name": "Mikael Granlund",
+    "Player ID": 8475798
+  },
+  {
+    "Player Name": "Roope Hintz",
+    "Player ID": 8478449
+  },
+  {
+    "Player Name": "Wyatt Johnston",
+    "Player ID": 8482740
+  },
+  {
+    "Player Name": "Mason Marchment",
+    "Player ID": 8478975
+  },
+  {
+    "Player Name": "Mikko Rantanen",
+    "Player ID": 8478420
+  },
+  {
+    "Player Name": "Jason Robertson",
+    "Player ID": 8480027
+  },
+  {
+    "Player Name": "Tyler Seguin",
+    "Player ID": 8475794
+  },
+  {
+    "Player Name": "Sam Steel",
+    "Player ID": 8479351
+  },
+  {
+    "Player Name": "Lian Bichsel",
+    "Player ID": 8483425
+  },
+  {
+    "Player Name": "Cody Ceci",
+    "Player ID": 8476879
+  },
+  {
+    "Player Name": "Mathew Dumba",
+    "Player ID": 8476856
+  },
+  {
+    "Player Name": "Thomas Harley",
+    "Player ID": 8481581
+  },
+  {
+    "Player Name": "Miro Heiskanen",
+    "Player ID": 8480036
+  },
+  {
+    "Player Name": "Esa Lindell",
+    "Player ID": 8476902
+  },
+  {
+    "Player Name": "Nils Lundkvist",
+    "Player ID": 8480878
+  },
+  {
+    "Player Name": "Ilya Lyubushkin",
+    "Player ID": 8480950
+  },
+  {
+    "Player Name": "Alexander Petrovic",
+    "Player ID": 8475755
+  },
+  {
+    "Player Name": "Brendan Smith",
+    "Player ID": 8474090
+  },
+  {
+    "Player Name": "Casey DeSmith",
+    "Player ID": 8479193
+  },
+  {
+    "Player Name": "Jake Oettinger",
+    "Player ID": 8479979
+  },
+  {
+    "Player Name": "Jonatan Berggren",
+    "Player ID": 8481013
+  },
+  {
+    "Player Name": "J.T. Compher",
+    "Player ID": 8477456
+  },
+  {
+    "Player Name": "Andrew Copp",
+    "Player ID": 8477429
+  },
+  {
+    "Player Name": "Alex DeBrincat",
+    "Player ID": 8479337
+  },
+  {
+    "Player Name": "Patrick Kane",
+    "Player ID": 8474141
+  },
+  {
+    "Player Name": "Marco Kasper",
+    "Player ID": 8483464
+  },
+  {
+    "Player Name": "Dylan Larkin",
+    "Player ID": 8477946
+  },
+  {
+    "Player Name": "Carter Mazur",
+    "Player ID": 8482802
+  },
+  {
+    "Player Name": "Tyler Motte",
+    "Player ID": 8477353
+  },
+  {
+    "Player Name": "Michael Rasmussen",
+    "Player ID": 8479992
+  },
+  {
+    "Player Name": "Lucas Raymond",
+    "Player ID": 8482078
+  },
+  {
+    "Player Name": "Craig Smith",
+    "Player ID": 8475225
+  },
+  {
+    "Player Name": "Vladimir Tarasenko",
+    "Player ID": 8475765
+  },
+  {
+    "Player Name": "Ben Chiarot",
+    "Player ID": 8475279
+  },
+  {
+    "Player Name": "Simon Edvinsson",
+    "Player ID": 8482762
+  },
+  {
+    "Player Name": "Erik Gustafsson",
+    "Player ID": 8476979
+  },
+  {
+    "Player Name": "Justin Holl",
+    "Player ID": 8475718
+  },
+  {
+    "Player Name": "Albert Johansson",
+    "Player ID": 8481607
+  },
+  {
+    "Player Name": "William Lagesson",
+    "Player ID": 8478021
+  },
+  {
+    "Player Name": "Jeff Petry",
+    "Player ID": 8473507
+  },
+  {
+    "Player Name": "Moritz Seider",
+    "Player ID": 8481542
+  },
+  {
+    "Player Name": "Alex Lyon",
+    "Player ID": 8479312
+  },
+  {
+    "Player Name": "Petr Mrazek",
+    "Player ID": 8475852
+  },
+  {
+    "Player Name": "Cam Talbot",
+    "Player ID": 8475660
+  },
+  {
+    "Player Name": "Viktor Arvidsson",
+    "Player ID": 8478042
+  },
+  {
+    "Player Name": "Connor Brown",
+    "Player ID": 8477015
+  },
+  {
+    "Player Name": "Leon Draisaitl",
+    "Player ID": 8477934
+  },
+  {
+    "Player Name": "Trent Frederic",
+    "Player ID": 8479365
+  },
+  {
+    "Player Name": "Adam Henrique",
+    "Player ID": 8474641
+  },
+  {
+    "Player Name": "Zach Hyman",
+    "Player ID": 8475786
+  },
+  {
+    "Player Name": "Mattias Janmark",
+    "Player ID": 8477406
+  },
+  {
+    "Player Name": "Max Jones",
+    "Player ID": 8479368
+  },
+  {
+    "Player Name": "Evander Kane",
+    "Player ID": 8475169
+  },
+  {
+    "Player Name": "Kasperi Kapanen",
+    "Player ID": 8477953
+  },
+  {
+    "Player Name": "Connor McDavid",
+    "Player ID": 8478402
+  },
+  {
+    "Player Name": "Ryan Nugent-Hopkins",
+    "Player ID": 8476454
+  },
+  {
+    "Player Name": "Corey Perry",
+    "Player ID": 8470621
+  },
+  {
+    "Player Name": "Vasily Podkolzin",
+    "Player ID": 8481617
+  },
+  {
+    "Player Name": "Derek Ryan",
+    "Player ID": 8478585
+  },
+  {
+    "Player Name": "Jeff Skinner",
+    "Player ID": 8475784
+  },
+  {
+    "Player Name": "Evan Bouchard",
+    "Player ID": 8480803
+  },
+  {
+    "Player Name": "Joshua Brown",
+    "Player ID": 8477384
+  },
+  {
+    "Player Name": "Cam Dineen",
+    "Player ID": 8479341
+  },
+  {
+    "Player Name": "Mattias Ekholm",
+    "Player ID": 8475218
+  },
+  {
+    "Player Name": "Ty Emberson",
+    "Player ID": 8480834
+  },
+  {
+    "Player Name": "John Klingberg",
+    "Player ID": 8475906
+  },
+  {
+    "Player Name": "Brett Kulak",
+    "Player ID": 8476967
+  },
+  {
+    "Player Name": "Darnell Nurse",
+    "Player ID": 8477498
+  },
+  {
+    "Player Name": "Troy Stecher",
+    "Player ID": 8479442
+  },
+  {
+    "Player Name": "Jake Walman",
+    "Player ID": 8478013
+  },
+  {
+    "Player Name": "Calvin Pickard",
+    "Player ID": 8475717
+  },
+  {
+    "Player Name": "Olivier Rodrigue",
+    "Player ID": 8480885
+  },
+  {
+    "Player Name": "Stuart Skinner",
+    "Player ID": 8479973
+  },
+  {
+    "Player Name": "Aleksander Barkov",
+    "Player ID": 8477493
+  },
+  {
+    "Player Name": "Sam Bennett",
+    "Player ID": 8477935
+  },
+  {
+    "Player Name": "Jesper Boqvist",
+    "Player ID": 8480003
+  },
+  {
+    "Player Name": "Jonah Gadjovich",
+    "Player ID": 8479981
+  },
+  {
+    "Player Name": "A.J. Greer",
+    "Player ID": 8478421
+  },
+  {
+    "Player Name": "Anton Lundell",
+    "Player ID": 8482113
+  },
+  {
+    "Player Name": "Eetu Luostarinen",
+    "Player ID": 8480185
+  },
+  {
+    "Player Name": "Brad Marchand",
+    "Player ID": 8473419
+  },
+  {
+    "Player Name": "Tomas Nosek",
+    "Player ID": 8477931
+  },
+  {
+    "Player Name": "Jesse Puljujarvi",
+    "Player ID": 8479344
+  },
+  {
+    "Player Name": "Sam Reinhart",
+    "Player ID": 8477933
+  },
+  {
+    "Player Name": "Evan Rodrigues",
+    "Player ID": 8478542
+  },
+  {
+    "Player Name": "Mackie Samoskevich",
+    "Player ID": 8482713
+  },
+  {
+    "Player Name": "Nico Sturm",
+    "Player ID": 8481477
+  },
+  {
+    "Player Name": "Matthew Tkachuk",
+    "Player ID": 8479314
+  },
+  {
+    "Player Name": "Carter Verhaeghe",
+    "Player ID": 8477409
+  },
+  {
+    "Player Name": "Uvis Balinskis",
+    "Player ID": 8484304
+  },
+  {
+    "Player Name": "Gustav Forsling",
+    "Player ID": 8478055
+  },
+  {
+    "Player Name": "Seth Jones",
+    "Player ID": 8477495
+  },
+  {
+    "Player Name": "Dmitry Kulikov",
+    "Player ID": 8475179
+  },
+  {
+    "Player Name": "Jaycob Megna",
+    "Player ID": 8477034
+  },
+  {
+    "Player Name": "Niko Mikkola",
+    "Player ID": 8478859
+  },
+  {
+    "Player Name": "Nate Schmidt",
+    "Player ID": 8477220
+  },
+  {
+    "Player Name": "Sergei Bobrovsky",
+    "Player ID": 8475683
+  },
+  {
+    "Player Name": "Vitek Vanecek",
+    "Player ID": 8477970
+  },
+  {
+    "Player Name": "Quinton Byfield",
+    "Player ID": 8482124
+  },
+  {
+    "Player Name": "Phillip Danault",
+    "Player ID": 8476479
+  },
+  {
+    "Player Name": "Kevin Fiala",
+    "Player ID": 8477942
+  },
+  {
+    "Player Name": "Warren Foegele",
+    "Player ID": 8477998
+  },
+  {
+    "Player Name": "Samuel Helenius",
+    "Player ID": 8482726
+  },
+  {
+    "Player Name": "Tanner Jeannot",
+    "Player ID": 8479661
+  },
+  {
+    "Player Name": "Adrian Kempe",
+    "Player ID": 8477960
+  },
+  {
+    "Player Name": "Anze Kopitar",
+    "Player ID": 8471685
+  },
+  {
+    "Player Name": "Andrei Kuzmenko",
+    "Player ID": 8483808
+  },
+  {
+    "Player Name": "Alex Laferriere",
+    "Player ID": 8482155
+  },
+  {
+    "Player Name": "Trevor Lewis",
+    "Player ID": 8473453
+  },
+  {
+    "Player Name": "Jeff Malott",
+    "Player ID": 8482408
+  },
+  {
+    "Player Name": "Trevor Moore",
+    "Player ID": 8479675
+  },
+  {
+    "Player Name": "Akil Thomas",
+    "Player ID": 8480851
+  },
+  {
+    "Player Name": "Alex Turcotte",
+    "Player ID": 8481532
+  },
+  {
+    "Player Name": "Mikey Anderson",
+    "Player ID": 8479998
+  },
+  {
+    "Player Name": "Kyle Burroughs",
+    "Player ID": 8477335
+  },
+  {
+    "Player Name": "Brandt Clarke",
+    "Player ID": 8482730
+  },
+  {
+    "Player Name": "Drew Doughty",
+    "Player ID": 8474563
+  },
+  {
+    "Player Name": "Joel Edmundson",
+    "Player ID": 8476441
+  },
+  {
+    "Player Name": "Vladislav Gavrikov",
+    "Player ID": 8478882
+  },
+  {
+    "Player Name": "Jacob Moverare",
+    "Player ID": 8479421
+  },
+  {
+    "Player Name": "Jordan Spence",
+    "Player ID": 8481606
+  },
+  {
+    "Player Name": "Darcy Kuemper",
+    "Player ID": 8475311
+  },
+  {
+    "Player Name": "David Rittich",
+    "Player ID": 8479496
+  },
+  {
+    "Player Name": "Matt Boldy",
+    "Player ID": 8481557
+  },
+  {
+    "Player Name": "Travis Boyd",
+    "Player ID": 8476329
+  },
+  {
+    "Player Name": "Justin Brazeau",
+    "Player ID": 8479638
+  },
+  {
+    "Player Name": "Joel Eriksson Ek",
+    "Player ID": 8478493
+  },
+  {
+    "Player Name": "Marcus Foligno",
+    "Player ID": 8475220
+  },
+  {
+    "Player Name": "Frederick Gaudreau",
+    "Player ID": 8477919
+  },
+  {
+    "Player Name": "Brendan Gaunce",
+    "Player ID": 8476867
+  },
+  {
+    "Player Name": "Hunter Haight",
+    "Player ID": 8483452
+  },
+  {
+    "Player Name": "Ryan Hartman",
+    "Player ID": 8477451
+  },
+  {
+    "Player Name": "Vinnie Hinostroza",
+    "Player ID": 8476994
+  },
+  {
+    "Player Name": "Marcus Johansson",
+    "Player ID": 8475149
+  },
+  {
+    "Player Name": "Ben Jones",
+    "Player ID": 8480259
+  },
+  {
+    "Player Name": "Kirill Kaprizov",
+    "Player ID": 8478864
+  },
+  {
+    "Player Name": "Gustav Nyquist",
+    "Player ID": 8474679
+  },
+  {
+    "Player Name": "Liam Ohgren",
+    "Player ID": 8483499
+  },
+  {
+    "Player Name": "Marco Rossi",
+    "Player ID": 8482079
+  },
+  {
+    "Player Name": "Devin Shore",
+    "Player ID": 8476913
+  },
+  {
+    "Player Name": "Yakov Trenin",
+    "Player ID": 8478508
+  },
+  {
+    "Player Name": "Mats Zuccarello",
+    "Player ID": 8475692
+  },
+  {
+    "Player Name": "Zach Bogosian",
+    "Player ID": 8474567
+  },
+  {
+    "Player Name": "Jonas Brodin",
+    "Player ID": 8476463
+  },
+  {
+    "Player Name": "Zeev Buium",
+    "Player ID": 8484798
+  },
+  {
+    "Player Name": "Declan Chisholm",
+    "Player ID": 8480990
+  },
+  {
+    "Player Name": "Cameron Crotty",
+    "Player ID": 8480075
+  },
+  {
+    "Player Name": "Brock Faber",
+    "Player ID": 8482122
+  },
+  {
+    "Player Name": "Carson Lambos",
+    "Player ID": 8482781
+  },
+  {
+    "Player Name": "Jon Merrill",
+    "Player ID": 8475750
+  },
+  {
+    "Player Name": "Jake Middleton",
+    "Player ID": 8478136
+  },
+  {
+    "Player Name": "Jared Spurgeon",
+    "Player ID": 8474716
+  },
+  {
+    "Player Name": "Marc-Andre Fleury",
+    "Player ID": 8470594
+  },
+  {
+    "Player Name": "Filip Gustavsson",
+    "Player ID": 8479406
+  },
+  {
+    "Player Name": "Jesper Wallstedt",
+    "Player ID": 8482661
+  },
+  {
+    "Player Name": "Josh Anderson",
+    "Player ID": 8476981
+  },
+  {
+    "Player Name": "Joel Armia",
+    "Player ID": 8476469
+  },
+  {
+    "Player Name": "Cole Caufield",
+    "Player ID": 8481540
+  },
+  {
+    "Player Name": "Kirby Dach",
+    "Player ID": 8481523
+  },
+  {
+    "Player Name": "Ivan Demidov",
+    "Player ID": 8484984
+  },
+  {
+    "Player Name": "Christian Dvorak",
+    "Player ID": 8477989
+  },
+  {
+    "Player Name": "Jake Evans",
+    "Player ID": 8478133
+  },
+  {
+    "Player Name": "Brendan Gallagher",
+    "Player ID": 8475848
+  },
+  {
+    "Player Name": "Emil Heineman",
+    "Player ID": 8482476
+  },
+  {
+    "Player Name": "Oliver Kapanen",
+    "Player ID": 8482775
+  },
+  {
+    "Player Name": "Patrik Laine",
+    "Player ID": 8479339
+  },
+  {
+    "Player Name": "Alex Newhook",
+    "Player ID": 8481618
+  },
+  {
+    "Player Name": "Michael Pezzetta",
+    "Player ID": 8479543
+  },
+  {
+    "Player Name": "Juraj Slafkovský",
+    "Player ID": 8483515
+  },
+  {
+    "Player Name": "Nick Suzuki",
+    "Player ID": 8480018
+  },
+  {
+    "Player Name": "Alexandre Carrier",
+    "Player ID": 8478851
+  },
+  {
+    "Player Name": "Kaiden Guhle",
+    "Player ID": 8482087
+  },
+  {
+    "Player Name": "Lane Hutson",
+    "Player ID": 8483457
+  },
+  {
+    "Player Name": "Mike Matheson",
+    "Player ID": 8476875
+  },
+  {
+    "Player Name": "David Savard",
+    "Player ID": 8475233
+  },
+  {
+    "Player Name": "Jayden Struble",
+    "Player ID": 8481593
+  },
+  {
+    "Player Name": "Arber Xhekaj",
+    "Player ID": 8482964
+  },
+  {
+    "Player Name": "Jakub Dobes",
+    "Player ID": 8482487
+  },
+  {
+    "Player Name": "Sam Montembeault",
+    "Player ID": 8478470
+  },
+  {
+    "Player Name": "Michael Bunting",
+    "Player ID": 8478047
+  },
+  {
+    "Player Name": "Luke Evangelista",
+    "Player ID": 8482146
+  },
+  {
+    "Player Name": "Filip Forsberg",
+    "Player ID": 8476887
+  },
+  {
+    "Player Name": "Zachary L'Heureux",
+    "Player ID": 8482742
+  },
+  {
+    "Player Name": "Jonathan Marchessault",
+    "Player ID": 8476539
+  },
+  {
+    "Player Name": "Michael McCarron",
+    "Player ID": 8477446
+  },
+  {
+    "Player Name": "Ryan O'Reilly",
+    "Player ID": 8475158
+  },
+  {
+    "Player Name": "Colton Sissons",
+    "Player ID": 8476925
+  },
+  {
+    "Player Name": "Cole Smith",
+    "Player ID": 8482062
+  },
+  {
+    "Player Name": "Steven Stamkos",
+    "Player ID": 8474564
+  },
+  {
+    "Player Name": "Jakub Vrana",
+    "Player ID": 8477944
+  },
+  {
+    "Player Name": "Matthew Wood",
+    "Player ID": 8484241
+  },
+  {
+    "Player Name": "Justin Barron",
+    "Player ID": 8482111
+  },
+  {
+    "Player Name": "Nick Blankenburg",
+    "Player ID": 8483565
+  },
+  {
+    "Player Name": "Andreas Englund",
+    "Player ID": 8477971
+  },
+  {
+    "Player Name": "Roman Josi",
+    "Player ID": 8474600
+  },
+  {
+    "Player Name": "Jeremy Lauzon",
+    "Player ID": 8478468
+  },
+  {
+    "Player Name": "Jordan Oesterle",
+    "Player ID": 8477851
+  },
+  {
+    "Player Name": "Brady Skjei",
+    "Player ID": 8476869
+  },
+  {
+    "Player Name": "Adam Wilsby",
+    "Player ID": 8482482
+  },
+  {
+    "Player Name": "Justus Annunen",
+    "Player ID": 8481020
+  },
+  {
+    "Player Name": "Juuse Saros",
+    "Player ID": 8477424
+  },
+  {
+    "Player Name": "Nathan Bastian",
+    "Player ID": 8479414
+  },
+  {
+    "Player Name": "Jesper Bratt",
+    "Player ID": 8479407
+  },
+  {
+    "Player Name": "Paul Cotter",
+    "Player ID": 8481032
+  },
+  {
+    "Player Name": "Justin Dowling",
+    "Player ID": 8475413
+  },
+  {
+    "Player Name": "Nolan Foote",
+    "Player ID": 8481518
+  },
+  {
+    "Player Name": "Cody Glass",
+    "Player ID": 8479996
+  },
+  {
+    "Player Name": "Brian Halonen",
+    "Player ID": 8483531
+  },
+  {
+    "Player Name": "Mike Hardman",
+    "Player ID": 8482635
+  },
+  {
+    "Player Name": "Erik Haula",
+    "Player ID": 8475287
+  },
+  {
+    "Player Name": "Nico Hischier",
+    "Player ID": 8480002
+  },
+  {
+    "Player Name": "Jack Hughes",
+    "Player ID": 8481559
+  },
+  {
+    "Player Name": "Curtis Lazar",
+    "Player ID": 8477508
+  },
+  {
+    "Player Name": "Nathan Légaré",
+    "Player ID": 8481594
+  },
+  {
+    "Player Name": "Kurtis MacDermid",
+    "Player ID": 8477073
+  },
+  {
+    "Player Name": "Marc McLaughlin",
+    "Player ID": 8483397
+  },
+  {
+    "Player Name": "Timo Meier",
+    "Player ID": 8478414
+  },
+  {
+    "Player Name": "Dawson Mercer",
+    "Player ID": 8482110
+  },
+  {
+    "Player Name": "Stefan Noesen",
+    "Player ID": 8476474
+  },
+  {
+    "Player Name": "Ondrej Palat",
+    "Player ID": 8476292
+  },
+  {
+    "Player Name": "Daniel Sprong",
+    "Player ID": 8478466
+  },
+  {
+    "Player Name": "Tomas Tatar",
+    "Player ID": 8475193
+  },
+  {
+    "Player Name": "Seamus Casey",
+    "Player ID": 8483429
+  },
+  {
+    "Player Name": "Dennis Cholowski",
+    "Player ID": 8479395
+  },
+  {
+    "Player Name": "Brenden Dillon",
+    "Player ID": 8475455
+  },
+  {
+    "Player Name": "Brian Dumoulin",
+    "Player ID": 8475208
+  },
+  {
+    "Player Name": "Dougie Hamilton",
+    "Player ID": 8476462
+  },
+  {
+    "Player Name": "Luke Hughes",
+    "Player ID": 8482684
+  },
+  {
+    "Player Name": "Johnathan Kovacevic",
+    "Player ID": 8480192
+  },
+  {
+    "Player Name": "Simon Nemec",
+    "Player ID": 8483495
+  },
+  {
+    "Player Name": "Brett Pesce",
+    "Player ID": 8477488
+  },
+  {
+    "Player Name": "Jonas Siegenthaler",
+    "Player ID": 8478399
+  },
+  {
+    "Player Name": "Topias Vilen",
+    "Player ID": 8482873
+  },
+  {
+    "Player Name": "Colton White",
+    "Player ID": 8478841
+  },
+  {
+    "Player Name": "Jake Allen",
+    "Player ID": 8474596
+  },
+  {
+    "Player Name": "Nico Daws",
+    "Player ID": 8482076
+  },
+  {
+    "Player Name": "Jacob Markstrom",
+    "Player ID": 8474593
+  },
+  {
+    "Player Name": "Isaac Poulter",
+    "Player ID": 8483659
+  },
+  {
+    "Player Name": "Mathew Barzal",
+    "Player ID": 8478445
+  },
+  {
+    "Player Name": "Casey Cizikas",
+    "Player ID": 8475231
+  },
+  {
+    "Player Name": "Anthony Duclair",
+    "Player ID": 8477407
+  },
+  {
+    "Player Name": "Pierre Engvall",
+    "Player ID": 8478115
+  },
+  {
+    "Player Name": "Hudson Fasching",
+    "Player ID": 8477392
+  },
+  {
+    "Player Name": "Marc Gatcomb",
+    "Player ID": 8483553
+  },
+  {
+    "Player Name": "Simon Holmstrom",
+    "Player ID": 8481601
+  },
+  {
+    "Player Name": "Bo Horvat",
+    "Player ID": 8477500
+  },
+  {
+    "Player Name": "Anders Lee",
+    "Player ID": 8475314
+  },
+  {
+    "Player Name": "Kyle MacLean",
+    "Player ID": 8481237
+  },
+  {
+    "Player Name": "Matt Martin",
+    "Player ID": 8474709
+  },
+  {
+    "Player Name": "Jean-Gabriel Pageau",
+    "Player ID": 8476419
+  },
+  {
+    "Player Name": "Kyle Palmieri",
+    "Player ID": 8475151
+  },
+  {
+    "Player Name": "Maxim Tsyplakov",
+    "Player ID": 8484958
+  },
+  {
+    "Player Name": "Adam Boqvist",
+    "Player ID": 8480871
+  },
+  {
+    "Player Name": "Tony DeAngelo",
+    "Player ID": 8477950
+  },
+  {
+    "Player Name": "Noah Dobson",
+    "Player ID": 8480865
+  },
+  {
+    "Player Name": "Scott Mayfield",
+    "Player ID": 8476429
+  },
+  {
+    "Player Name": "Adam Pelech",
+    "Player ID": 8476917
+  },
+  {
+    "Player Name": "Scott Perunovich",
+    "Player ID": 8481059
+  },
+  {
+    "Player Name": "Ryan Pulock",
+    "Player ID": 8477506
+  },
+  {
+    "Player Name": "Mike Reilly",
+    "Player ID": 8476422
+  },
+  {
+    "Player Name": "Alexander Romanov",
+    "Player ID": 8481014
+  },
+  {
+    "Player Name": "Marcus Hogberg",
+    "Player ID": 8477405
+  },
+  {
+    "Player Name": "Ilya Sorokin",
+    "Player ID": 8478009
+  },
+  {
+    "Player Name": "Semyon Varlamov",
+    "Player ID": 8473575
+  },
+  {
+    "Player Name": "Nicolas Aube-Kubel",
+    "Player ID": 8477979
+  },
+  {
+    "Player Name": "Brett Berard",
+    "Player ID": 8482132
+  },
+  {
+    "Player Name": "Jonny Brodzinski",
+    "Player ID": 8477380
+  },
+  {
+    "Player Name": "Sam Carrick",
+    "Player ID": 8475842
+  },
+  {
+    "Player Name": "Will Cuylle",
+    "Player ID": 8482157
+  },
+  {
+    "Player Name": "Adam Edstrom",
+    "Player ID": 8481726
+  },
+  {
+    "Player Name": "Arthur Kaliyev",
+    "Player ID": 8481560
+  },
+  {
+    "Player Name": "Chris Kreider",
+    "Player ID": 8475184
+  },
+  {
+    "Player Name": "Alexis Lafrenière",
+    "Player ID": 8482109
+  },
+  {
+    "Player Name": "J.T. Miller",
+    "Player ID": 8476468
+  },
+  {
+    "Player Name": "Brennan Othmann",
+    "Player ID": 8482747
+  },
+  {
+    "Player Name": "Artemi Panarin",
+    "Player ID": 8478550
+  },
+  {
+    "Player Name": "Juuso Parssinen",
+    "Player ID": 8481704
+  },
+  {
+    "Player Name": "Gabe Perreault",
+    "Player ID": 8484210
+  },
+  {
+    "Player Name": "Matt Rempe",
+    "Player ID": 8482460
+  },
+  {
+    "Player Name": "Vincent Trocheck",
+    "Player ID": 8476389
+  },
+  {
+    "Player Name": "Mika Zibanejad",
+    "Player ID": 8476459
+  },
+  {
+    "Player Name": "Will Borgen",
+    "Player ID": 8478840
+  },
+  {
+    "Player Name": "Calvin de Haan",
+    "Player ID": 8475177
+  },
+  {
+    "Player Name": "Adam Fox",
+    "Player ID": 8479323
+  },
+  {
+    "Player Name": "Zac Jones",
+    "Player ID": 8481708
+  },
+  {
+    "Player Name": "K'Andre Miller",
+    "Player ID": 8480817
+  },
+  {
+    "Player Name": "Braden Schneider",
+    "Player ID": 8482073
+  },
+  {
+    "Player Name": "Carson Soucy",
+    "Player ID": 8477369
+  },
+  {
+    "Player Name": "Urho Vaakanainen",
+    "Player ID": 8480001
+  },
+  {
+    "Player Name": "Jonathan Quick",
+    "Player ID": 8471734
+  },
+  {
+    "Player Name": "Igor Shesterkin",
+    "Player ID": 8478048
+  },
+  {
+    "Player Name": "Michael Amadio",
+    "Player ID": 8478020
+  },
+  {
+    "Player Name": "Drake Batherson",
+    "Player ID": 8480208
+  },
+  {
+    "Player Name": "Nick Cousins",
+    "Player ID": 8476393
+  },
+  {
+    "Player Name": "Dylan Cozens",
+    "Player ID": 8481528
+  },
+  {
+    "Player Name": "Adam Gaudette",
+    "Player ID": 8478874
+  },
+  {
+    "Player Name": "Claude Giroux",
+    "Player ID": 8473512
+  },
+  {
+    "Player Name": "Ridly Greig",
+    "Player ID": 8482092
+  },
+  {
+    "Player Name": "Matthew Highmore",
+    "Player ID": 8478146
+  },
+  {
+    "Player Name": "Hayden Hodgson",
+    "Player ID": 8478173
+  },
+  {
+    "Player Name": "David Perron",
+    "Player ID": 8474102
+  },
+  {
+    "Player Name": "Shane Pinto",
+    "Player ID": 8481596
+  },
+  {
+    "Player Name": "Tim Stützle",
+    "Player ID": 8482116
+  },
+  {
+    "Player Name": "Brady Tkachuk",
+    "Player ID": 8480801
+  },
+  {
+    "Player Name": "Fabian Zetterlund",
+    "Player ID": 8480188
+  },
+  {
+    "Player Name": "Thomas Chabot",
+    "Player ID": 8478469
+  },
+  {
+    "Player Name": "Dennis Gilbert",
+    "Player ID": 8478502
+  },
+  {
+    "Player Name": "Travis Hamonic",
+    "Player ID": 8474612
+  },
+  {
+    "Player Name": "Nick Jensen",
+    "Player ID": 8475324
+  },
+  {
+    "Player Name": "Tyler Kleven",
+    "Player ID": 8482095
+  },
+  {
+    "Player Name": "Nikolas Matinpalo",
+    "Player ID": 8484321
+  },
+  {
+    "Player Name": "Jake Sanderson",
+    "Player ID": 8482105
+  },
+  {
+    "Player Name": "Artem Zub",
+    "Player ID": 8482245
+  },
+  {
+    "Player Name": "Anton Forsberg",
+    "Player ID": 8476341
+  },
+  {
+    "Player Name": "Linus Ullmark",
+    "Player ID": 8476999
+  },
+  {
+    "Player Name": "Bobby Brink",
+    "Player ID": 8481553
+  },
+  {
+    "Player Name": "Noah Cates",
+    "Player ID": 8480220
+  },
+  {
+    "Player Name": "Sean Couturier",
+    "Player ID": 8476461
+  },
+  {
+    "Player Name": "Nicolas Deslauriers",
+    "Player ID": 8475235
+  },
+  {
+    "Player Name": "Karsen Dorwart",
+    "Player ID": 8485483
+  },
+  {
+    "Player Name": "Tyson Foerster",
+    "Player ID": 8482159
+  },
+  {
+    "Player Name": "Garnet Hathaway",
+    "Player ID": 8477903
+  },
+  {
+    "Player Name": "Devin Kaplan",
+    "Player ID": 8483461
+  },
+  {
+    "Player Name": "Travis Konecny",
+    "Player ID": 8478439
+  },
+  {
+    "Player Name": "Matvei Michkov",
+    "Player ID": 8484387
+  },
+  {
+    "Player Name": "Jakob Pelletier",
+    "Player ID": 8481592
+  },
+  {
+    "Player Name": "Ryan Poehling",
+    "Player ID": 8480068
+  },
+  {
+    "Player Name": "Owen Tippett",
+    "Player ID": 8480015
+  },
+  {
+    "Player Name": "Jamie Drysdale",
+    "Player ID": 8482142
+  },
+  {
+    "Player Name": "Ryan Ellis",
+    "Player ID": 8475176
+  },
+  {
+    "Player Name": "Rasmus Ristolainen",
+    "Player ID": 8477499
+  },
+  {
+    "Player Name": "Travis Sanheim",
+    "Player ID": 8477948
+  },
+  {
+    "Player Name": "Nick Seeler",
+    "Player ID": 8476372
+  },
+  {
+    "Player Name": "Cam York",
+    "Player ID": 8481546
+  },
+  {
+    "Player Name": "Egor Zamula",
+    "Player ID": 8481178
+  },
+  {
+    "Player Name": "Samuel Ersson",
+    "Player ID": 8481035
+  },
+  {
+    "Player Name": "Ivan Fedotov",
+    "Player ID": 8478905
+  },
+  {
+    "Player Name": "Aleksei Kolosov",
+    "Player ID": 8482783
+  },
+  {
+    "Player Name": "Noel Acciari",
+    "Player ID": 8478569
+  },
+  {
+    "Player Name": "Sidney Crosby",
+    "Player ID": 8471675
+  },
+  {
+    "Player Name": "Connor Dewar",
+    "Player ID": 8480980
+  },
+  {
+    "Player Name": "Kevin Hayes",
+    "Player ID": 8475763
+  },
+  {
+    "Player Name": "Danton Heinen",
+    "Player ID": 8478046
+  },
+  {
+    "Player Name": "Bokondji Imama",
+    "Player ID": 8478147
+  },
+  {
+    "Player Name": "Blake Lizotte",
+    "Player ID": 8481481
+  },
+  {
+    "Player Name": "Evgeni Malkin",
+    "Player ID": 8471215
+  },
+  {
+    "Player Name": "Rutger McGroarty",
+    "Player ID": 8483487
+  },
+  {
+    "Player Name": "Matt Nieto",
+    "Player ID": 8476442
+  },
+  {
+    "Player Name": "Tommy Novak",
+    "Player ID": 8478438
+  },
+  {
+    "Player Name": "Rickard Rakell",
+    "Player ID": 8476483
+  },
+  {
+    "Player Name": "Bryan Rust",
+    "Player ID": 8475810
+  },
+  {
+    "Player Name": "Philip Tomasino",
+    "Player ID": 8481577
+  },
+  {
+    "Player Name": "Ryan Graves",
+    "Player ID": 8477435
+  },
+  {
+    "Player Name": "Matt Grzelcyk",
+    "Player ID": 8476891
+  },
+  {
+    "Player Name": "P.O Joseph",
+    "Player ID": 8480058
+  },
+  {
+    "Player Name": "Erik Karlsson",
+    "Player ID": 8474578
+  },
+  {
+    "Player Name": "Vladislav Kolyachonok",
+    "Player ID": 8481609
+  },
+  {
+    "Player Name": "Kris Letang",
+    "Player ID": 8471724
+  },
+  {
+    "Player Name": "Ryan Shea",
+    "Player ID": 8478854
+  },
+  {
+    "Player Name": "Conor Timmins",
+    "Player ID": 8479982
+  },
+  {
+    "Player Name": "Tristan Jarry",
+    "Player ID": 8477465
+  },
+  {
+    "Player Name": "Alex Nedeljkovic",
+    "Player ID": 8477968
+  },
+  {
+    "Player Name": "Thomas Bordeleau",
+    "Player ID": 8482133
+  },
+  {
+    "Player Name": "Macklin Celebrini",
+    "Player ID": 8484801
+  },
+  {
+    "Player Name": "Logan Couture",
+    "Player ID": 8474053
+  },
+  {
+    "Player Name": "Ty Dellandrea",
+    "Player ID": 8480848
+  },
+  {
+    "Player Name": "William Eklund",
+    "Player ID": 8482667
+  },
+  {
+    "Player Name": "Barclay Goodrow",
+    "Player ID": 8476624
+  },
+  {
+    "Player Name": "Noah Gregor",
+    "Player ID": 8479393
+  },
+  {
+    "Player Name": "Carl Grundstrom",
+    "Player ID": 8479336
+  },
+  {
+    "Player Name": "Klim Kostin",
+    "Player ID": 8480011
+  },
+  {
+    "Player Name": "Nikolai Kovalenko",
+    "Player ID": 8481042
+  },
+  {
+    "Player Name": "Cam Lund",
+    "Player ID": 8483481
+  },
+  {
+    "Player Name": "Will Smith",
+    "Player ID": 8484227
+  },
+  {
+    "Player Name": "Tyler Toffoli",
+    "Player ID": 8475726
+  },
+  {
+    "Player Name": "Alexander Wennberg",
+    "Player ID": 8477505
+  },
+  {
+    "Player Name": "Vincent Desharnais",
+    "Player ID": 8479576
+  },
+  {
+    "Player Name": "Mario Ferraro",
+    "Player ID": 8479983
+  },
+  {
+    "Player Name": "Timothy Liljegren",
+    "Player ID": 8480043
+  },
+  {
+    "Player Name": "Shakir Mukhamadullin",
+    "Player ID": 8482166
+  },
+  {
+    "Player Name": "Jan Rutta",
+    "Player ID": 8480172
+  },
+  {
+    "Player Name": "Henry Thrun",
+    "Player ID": 8481567
+  },
+  {
+    "Player Name": "Marc-Edouard Vlasic",
+    "Player ID": 8471709
+  },
+  {
+    "Player Name": "Alexandar Georgiev",
+    "Player ID": 8480382
+  },
+  {
+    "Player Name": "Georgi Romanov",
+    "Player ID": 8484312
+  },
+  {
+    "Player Name": "Matty Beniers",
+    "Player ID": 8482665
+  },
+  {
+    "Player Name": "Andre Burakovsky",
+    "Player ID": 8477444
+  },
+  {
+    "Player Name": "Jordan Eberle",
+    "Player ID": 8474586
+  },
+  {
+    "Player Name": "Michael Eyssimont",
+    "Player ID": 8479591
+  },
+  {
+    "Player Name": "Kaapo Kakko",
+    "Player ID": 8481554
+  },
+  {
+    "Player Name": "Tye Kartye",
+    "Player ID": 8481789
+  },
+  {
+    "Player Name": "Jared McCann",
+    "Player ID": 8477955
+  },
+  {
+    "Player Name": "Jaden Schwartz",
+    "Player ID": 8475768
+  },
+  {
+    "Player Name": "Chandler Stephenson",
+    "Player ID": 8476905
+  },
+  {
+    "Player Name": "Eeli Tolvanen",
+    "Player ID": 8480009
+  },
+  {
+    "Player Name": "Shane Wright",
+    "Player ID": 8483524
+  },
+  {
+    "Player Name": "Vince Dunn",
+    "Player ID": 8478407
+  },
+  {
+    "Player Name": "Ryker Evans",
+    "Player ID": 8482858
+  },
+  {
+    "Player Name": "Adam Larsson",
+    "Player ID": 8476457
+  },
+  {
+    "Player Name": "Joshua Mahura",
+    "Player ID": 8479372
+  },
+  {
+    "Player Name": "Brandon Montour",
+    "Player ID": 8477986
+  },
+  {
+    "Player Name": "Jamie Oleksiak",
+    "Player ID": 8476467
+  },
+  {
+    "Player Name": "Joey Daccord",
+    "Player ID": 8478916
+  },
+  {
+    "Player Name": "Philipp Grubauer",
+    "Player ID": 8475831
+  },
+  {
+    "Player Name": "Zack Bolduc",
+    "Player ID": 8482737
+  },
+  {
+    "Player Name": "Pavel Buchnevich",
+    "Player ID": 8477402
+  },
+  {
+    "Player Name": "Radek Faksa",
+    "Player ID": 8476889
+  },
+  {
+    "Player Name": "Dylan Holloway",
+    "Player ID": 8482077
+  },
+  {
+    "Player Name": "Mathieu Joseph",
+    "Player ID": 8478472
+  },
+  {
+    "Player Name": "Jordan Kyrou",
+    "Player ID": 8479385
+  },
+  {
+    "Player Name": "Jake Neighbours",
+    "Player ID": 8482089
+  },
+  {
+    "Player Name": "Brayden Schenn",
+    "Player ID": 8475170
+  },
+  {
+    "Player Name": "Jimmy Snuggerud",
+    "Player ID": 8483516
+  },
+  {
+    "Player Name": "Oskar Sundqvist",
+    "Player ID": 8476897
+  },
+  {
+    "Player Name": "Alexandre Texier",
+    "Player ID": 8480074
+  },
+  {
+    "Player Name": "Robert Thomas",
+    "Player ID": 8480023
+  },
+  {
+    "Player Name": "Alexey Toropchenko",
+    "Player ID": 8480281
+  },
+  {
+    "Player Name": "Nathan Walker",
+    "Player ID": 8477573
+  },
+  {
+    "Player Name": "Philip Broberg",
+    "Player ID": 8481598
+  },
+  {
+    "Player Name": "Justin Faulk",
+    "Player ID": 8475753
+  },
+  {
+    "Player Name": "Cam Fowler",
+    "Player ID": 8475764
+  },
+  {
+    "Player Name": "Matthew Kessel",
+    "Player ID": 8482516
+  },
+  {
+    "Player Name": "Nick Leddy",
+    "Player ID": 8475181
+  },
+  {
+    "Player Name": "Colton Parayko",
+    "Player ID": 8476892
+  },
+  {
+    "Player Name": "Ryan Suter",
+    "Player ID": 8470600
+  },
+  {
+    "Player Name": "Tyler Tucker",
+    "Player ID": 8481006
+  },
+  {
+    "Player Name": "Jordan Binnington",
+    "Player ID": 8476412
+  },
+  {
+    "Player Name": "Will Cranley",
+    "Player ID": 8482205
+  },
+  {
+    "Player Name": "Joel Hofer",
+    "Player ID": 8480981
+  },
+  {
+    "Player Name": "Cam Atkinson",
+    "Player ID": 8474715
+  },
+  {
+    "Player Name": "Oliver Bjorkstrand",
+    "Player ID": 8477416
+  },
+  {
+    "Player Name": "Mitchell Chaffee",
+    "Player ID": 8482070
+  },
+  {
+    "Player Name": "Anthony Cirelli",
+    "Player ID": 8478519
+  },
+  {
+    "Player Name": "Conor Geekie",
+    "Player ID": 8483447
+  },
+  {
+    "Player Name": "Zemgus Girgensons",
+    "Player ID": 8476878
+  },
+  {
+    "Player Name": "Luke Glendening",
+    "Player ID": 8476822
+  },
+  {
+    "Player Name": "Gage Goncalves",
+    "Player ID": 8482201
+  },
+  {
+    "Player Name": "Yanni Gourde",
+    "Player ID": 8476826
+  },
+  {
+    "Player Name": "Jake Guentzel",
+    "Player ID": 8477404
+  },
+  {
+    "Player Name": "Brandon Hagel",
+    "Player ID": 8479542
+  },
+  {
+    "Player Name": "Nikita Kucherov",
+    "Player ID": 8476453
+  },
+  {
+    "Player Name": "Nick Paul",
+    "Player ID": 8477426
+  },
+  {
+    "Player Name": "Brayden Point",
+    "Player ID": 8478010
+  },
+  {
+    "Player Name": "Erik Cernak",
+    "Player ID": 8478416
+  },
+  {
+    "Player Name": "Victor Hedman",
+    "Player ID": 8475167
+  },
+  {
+    "Player Name": "Emil Lilleberg",
+    "Player ID": 8482929
+  },
+  {
+    "Player Name": "Ryan McDonagh",
+    "Player ID": 8474151
+  },
+  {
+    "Player Name": "J.J. Moser",
+    "Player ID": 8482655
+  },
+  {
+    "Player Name": "Nick Perbix",
+    "Player ID": 8480246
+  },
+  {
+    "Player Name": "Darren Raddysh",
+    "Player ID": 8478178
+  },
+  {
+    "Player Name": "Jonas Johansson",
+    "Player ID": 8477992
+  },
+  {
+    "Player Name": "Andrei Vasilevskiy",
+    "Player ID": 8476883
+  },
+  {
+    "Player Name": "Max Domi",
+    "Player ID": 8477503
+  },
+  {
+    "Player Name": "Pontus Holmberg",
+    "Player ID": 8480995
+  },
+  {
+    "Player Name": "Calle Jarnkrok",
+    "Player ID": 8475714
+  },
+  {
+    "Player Name": "David Kampf",
+    "Player ID": 8480144
+  },
+  {
+    "Player Name": "Matthew Knies",
+    "Player ID": 8482720
+  },
+  {
+    "Player Name": "Scott Laughton",
+    "Player ID": 8476872
+  },
+  {
+    "Player Name": "Steven Lorentz",
+    "Player ID": 8478904
+  },
+  {
+    "Player Name": "Mitch Marner",
+    "Player ID": 8478483
+  },
+  {
+    "Player Name": "Auston Matthews",
+    "Player ID": 8479318
+  },
+  {
+    "Player Name": "Bobby McMann",
+    "Player ID": 8482259
+  },
+  {
+    "Player Name": "William Nylander",
+    "Player ID": 8477939
+  },
+  {
+    "Player Name": "Max Pacioretty",
+    "Player ID": 8474157
+  },
+  {
+    "Player Name": "Ryan Reaves",
+    "Player ID": 8471817
+  },
+  {
+    "Player Name": "Nicholas Robertson",
+    "Player ID": 8481582
+  },
+  {
+    "Player Name": "John Tavares",
+    "Player ID": 8475166
+  },
+  {
+    "Player Name": "Simon Benoit",
+    "Player ID": 8481122
+  },
+  {
+    "Player Name": "Brandon Carlo",
+    "Player ID": 8478443
+  },
+  {
+    "Player Name": "Oliver Ekman-Larsson",
+    "Player ID": 8475171
+  },
+  {
+    "Player Name": "Jani Hakanpää",
+    "Player ID": 8475825
+  },
+  {
+    "Player Name": "Jake McCabe",
+    "Player ID": 8476931
+  },
+  {
+    "Player Name": "Dakota Mermis",
+    "Player ID": 8477541
+  },
+  {
+    "Player Name": "Philippe Myers",
+    "Player ID": 8479026
+  },
+  {
+    "Player Name": "Morgan Rielly",
+    "Player ID": 8476853
+  },
+  {
+    "Player Name": "Chris Tanev",
+    "Player ID": 8475690
+  },
+  {
+    "Player Name": "Anthony Stolarz",
+    "Player ID": 8476932
+  },
+  {
+    "Player Name": "Joseph Woll",
+    "Player ID": 8479361
+  },
+  {
+    "Player Name": "Nils Aman",
+    "Player ID": 8482496
+  },
+  {
+    "Player Name": "Teddy Blueger",
+    "Player ID": 8476927
+  },
+  {
+    "Player Name": "Brock Boeser",
+    "Player ID": 8478444
+  },
+  {
+    "Player Name": "Filip Chytil",
+    "Player ID": 8480078
+  },
+  {
+    "Player Name": "Jake DeBrusk",
+    "Player ID": 8478498
+  },
+  {
+    "Player Name": "Conor Garland",
+    "Player ID": 8478856
+  },
+  {
+    "Player Name": "Nils Hoglander",
+    "Player ID": 8481535
+  },
+  {
+    "Player Name": "Dakota Joshua",
+    "Player ID": 8478057
+  },
+  {
+    "Player Name": "Drew O'Connor",
+    "Player ID": 8482055
+  },
+  {
+    "Player Name": "Elias Pettersson",
+    "Player ID": 8483678
+  },
+  {
+    "Player Name": "Kiefer Sherwood",
+    "Player ID": 8480748
+  },
+  {
+    "Player Name": "Pius Suter",
+    "Player ID": 8480459
+  },
+  {
+    "Player Name": "Derek Forbort",
+    "Player ID": 8475762
+  },
+  {
+    "Player Name": "Filip Hronek",
+    "Player ID": 8479425
+  },
+  {
+    "Player Name": "Quinn Hughes",
+    "Player ID": 8480800
+  },
+  {
+    "Player Name": "Noah Juulsen",
+    "Player ID": 8478454
+  },
+  {
+    "Player Name": "Tyler Myers",
+    "Player ID": 8474574
+  },
+  {
+    "Player Name": "Marcus Pettersson",
+    "Player ID": 8477969
+  },
+  {
+    "Player Name": "Thatcher Demko",
+    "Player ID": 8477967
+  },
+  {
+    "Player Name": "Kevin Lankinen",
+    "Player ID": 8480947
+  },
+  {
+    "Player Name": "Ivan Barbashev",
+    "Player ID": 8477964
+  },
+  {
+    "Player Name": "Callahan Burke",
+    "Player ID": 8482250
+  },
+  {
+    "Player Name": "Pavel Dorofeyev",
+    "Player ID": 8481604
+  },
+  {
+    "Player Name": "Jack Eichel",
+    "Player ID": 8478403
+  },
+  {
+    "Player Name": "Tomas Hertl",
+    "Player ID": 8476881
+  },
+  {
+    "Player Name": "Alexander Holtz",
+    "Player ID": 8482125
+  },
+  {
+    "Player Name": "Brett Howden",
+    "Player ID": 8479353
+  },
+  {
+    "Player Name": "William Karlsson",
+    "Player ID": 8476448
+  },
+  {
+    "Player Name": "Keegan Kolesar",
+    "Player ID": 8478434
+  },
+  {
+    "Player Name": "Tanner Laczynski",
+    "Player ID": 8479550
+  },
+  {
+    "Player Name": "Raphael Lavoie",
+    "Player ID": 8481534
+  },
+  {
+    "Player Name": "Victor Olofsson",
+    "Player ID": 8478109
+  },
+  {
+    "Player Name": "Tanner Pearson",
+    "Player ID": 8476871
+  },
+  {
+    "Player Name": "Jonas Rondbjerg",
+    "Player ID": 8480007
+  },
+  {
+    "Player Name": "Nicolas Roy",
+    "Player ID": 8478462
+  },
+  {
+    "Player Name": "Brandon Saad",
+    "Player ID": 8476438
+  },
+  {
+    "Player Name": "Matyas Sapovaliv",
+    "Player ID": 8483511
+  },
+  {
+    "Player Name": "Cole Schwindt",
+    "Player ID": 8481655
+  },
+  {
+    "Player Name": "Reilly Smith",
+    "Player ID": 8475191
+  },
+  {
+    "Player Name": "Mark Stone",
+    "Player ID": 8475913
+  },
+  {
+    "Player Name": "Robert Hagg",
+    "Player ID": 8477462
+  },
+  {
+    "Player Name": "Nicolas Hague",
+    "Player ID": 8479980
+  },
+  {
+    "Player Name": "Noah Hanifin",
+    "Player ID": 8478396
+  },
+  {
+    "Player Name": "Ben Hutton",
+    "Player ID": 8477018
+  },
+  {
+    "Player Name": "Kaedan Korczak",
+    "Player ID": 8481527
+  },
+  {
+    "Player Name": "Dysin Mayo",
+    "Player ID": 8478062
+  },
+  {
+    "Player Name": "Brayden McNabb",
+    "Player ID": 8475188
+  },
+  {
+    "Player Name": "Alex Pietrangelo",
+    "Player ID": 8474565
+  },
+  {
+    "Player Name": "Shea Theodore",
+    "Player ID": 8477447
+  },
+  {
+    "Player Name": "Zach Whitecloud",
+    "Player ID": 8480727
+  },
+  {
+    "Player Name": "Adin Hill",
+    "Player ID": 8478499
+  },
+  {
+    "Player Name": "Carl Lindbom",
+    "Player ID": 8482761
+  },
+  {
+    "Player Name": "Ilya Samsonov",
+    "Player ID": 8478492
+  },
+  {
+    "Player Name": "Akira Schmid",
+    "Player ID": 8481033
+  },
+  {
+    "Player Name": "Nicklas Backstrom",
+    "Player ID": 8473563
+  },
+  {
+    "Player Name": "Anthony Beauvillier",
+    "Player ID": 8478463
+  },
+  {
+    "Player Name": "Nic Dowd",
+    "Player ID": 8475343
+  },
+  {
+    "Player Name": "Pierre-Luc Dubois",
+    "Player ID": 8479400
+  },
+  {
+    "Player Name": "Brandon Duhaime",
+    "Player ID": 8479520
+  },
+  {
+    "Player Name": "Lars Eller",
+    "Player ID": 8474189
+  },
+  {
+    "Player Name": "Ethen Frank",
+    "Player ID": 8483573
+  },
+  {
+    "Player Name": "Ryan Leonard",
+    "Player ID": 8484186
+  },
+  {
+    "Player Name": "Andrew Mangiapane",
+    "Player ID": 8478233
+  },
+  {
+    "Player Name": "Connor McMichael",
+    "Player ID": 8481580
+  },
+  {
+    "Player Name": "Sonny Milano",
+    "Player ID": 8477947
+  },
+  {
+    "Player Name": "T.J. Oshie",
+    "Player ID": 8471698
+  },
+  {
+    "Player Name": "Alex Ovechkin",
+    "Player ID": 8471214
+  },
+  {
+    "Player Name": "Aliaksei Protas",
+    "Player ID": 8481656
+  },
+  {
+    "Player Name": "Taylor Raddysh",
+    "Player ID": 8479390
+  },
+  {
+    "Player Name": "Dylan Strome",
+    "Player ID": 8478440
+  },
+  {
+    "Player Name": "Tom Wilson",
+    "Player ID": 8476880
+  },
+  {
+    "Player Name": "Alexander Alexeyev",
+    "Player ID": 8480823
+  },
+  {
+    "Player Name": "Ethan Bear",
+    "Player ID": 8478451
+  },
+  {
+    "Player Name": "John Carlson",
+    "Player ID": 8474590
+  },
+  {
+    "Player Name": "Jakob Chychrun",
+    "Player ID": 8479345
+  },
+  {
+    "Player Name": "Martin Fehérváry",
+    "Player ID": 8480796
+  },
+  {
+    "Player Name": "Dylan McIlrath",
+    "Player ID": 8475795
+  },
+  {
+    "Player Name": "Matt Roy",
+    "Player ID": 8478911
+  },
+  {
+    "Player Name": "Rasmus Sandin",
+    "Player ID": 8480873
+  },
+  {
+    "Player Name": "Trevor van Riemsdyk",
+    "Player ID": 8477845
+  },
+  {
+    "Player Name": "Charlie Lindgren",
+    "Player ID": 8479292
+  },
+  {
+    "Player Name": "Clay Stevenson",
+    "Player ID": 8483532
+  },
+  {
+    "Player Name": "Logan Thompson",
+    "Player ID": 8480313
+  },
+  {
+    "Player Name": "Jaret Anderson-Dolan",
+    "Player ID": 8479994
+  },
+  {
+    "Player Name": "Mason Appleton",
+    "Player ID": 8478891
+  },
+  {
+    "Player Name": "Morgan Barron",
+    "Player ID": 8480289
+  },
+  {
+    "Player Name": "Kyle Connor",
+    "Player ID": 8478398
+  },
+  {
+    "Player Name": "Nikolaj Ehlers",
+    "Player ID": 8477940
+  },
+  {
+    "Player Name": "David Gustafsson",
+    "Player ID": 8481019
+  },
+  {
+    "Player Name": "Alex Iafallo",
+    "Player ID": 8480113
+  },
+  {
+    "Player Name": "Axel Jonsson-Fjallby",
+    "Player ID": 8479536
+  },
+  {
+    "Player Name": "Rasmus Kupari",
+    "Player ID": 8480845
+  },
+  {
+    "Player Name": "Adam Lowry",
+    "Player ID": 8476392
+  },
+  {
+    "Player Name": "Vladislav Namestnikov",
+    "Player ID": 8476480
+  },
+  {
+    "Player Name": "Nino Niederreiter",
+    "Player ID": 8475799
+  },
+  {
+    "Player Name": "Cole Perfetti",
+    "Player ID": 8482149
+  },
+  {
+    "Player Name": "Mark Scheifele",
+    "Player ID": 8476460
+  },
+  {
+    "Player Name": "Mason Shaw",
+    "Player ID": 8479972
+  },
+  {
+    "Player Name": "Brandon Tanev",
+    "Player ID": 8479293
+  },
+  {
+    "Player Name": "Dominic Toninato",
+    "Player ID": 8476952
+  },
+  {
+    "Player Name": "Gabriel Vilardi",
+    "Player ID": 8480014
+  },
+  {
+    "Player Name": "Dylan Coghlan",
+    "Player ID": 8479639
+  },
+  {
+    "Player Name": "Dylan DeMelo",
+    "Player ID": 8476331
+  },
+  {
+    "Player Name": "Haydn Fleury",
+    "Player ID": 8477938
+  },
+  {
+    "Player Name": "Ville Heinola",
+    "Player ID": 8481572
+  },
+  {
+    "Player Name": "Colin Miller",
+    "Player ID": 8476525
+  },
+  {
+    "Player Name": "Josh Morrissey",
+    "Player ID": 8477504
+  },
+  {
+    "Player Name": "Isaak Phillips",
+    "Player ID": 8482192
+  },
+  {
+    "Player Name": "Neal Pionk",
+    "Player ID": 8480145
+  },
+  {
+    "Player Name": "Elias Salomonsson",
+    "Player ID": 8483510
+  },
+  {
+    "Player Name": "Dylan Samberg",
+    "Player ID": 8480049
+  },
+  {
+    "Player Name": "Luke Schenn",
+    "Player ID": 8474568
+  },
+  {
+    "Player Name": "Logan Stanley",
+    "Player ID": 8479378
+  },
+  {
+    "Player Name": "Eric Comrie",
+    "Player ID": 8477480
+  },
+  {
+    "Player Name": "Chris Driedger",
+    "Player ID": 8476904
+  },
+  {
+    "Player Name": "Connor Hellebuyck",
+    "Player ID": 8476945
+  }
+]
