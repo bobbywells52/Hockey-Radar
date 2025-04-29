@@ -1,8 +1,8 @@
 import './App.css'
-import PlayerCard from "./components/PlayerCard.tsx";
 import styles from './App.module.css';
 import {players} from "../players.tsx";
 import {shuffleArray} from "./help.ts";
+import ParentCard from "./components/ParentCard.tsx";
 
   const shuffled = players.sort(() => 0.5 - Math.random()); // Shuffle the array
   const slicedIds = shuffled.slice(0, 6);
@@ -12,13 +12,11 @@ import {shuffleArray} from "./help.ts";
 
 const playerIds =shuffleArray(slicedIds)
 
-
-
 function App() {
     return (
         <div className={styles.gridContainer}>
-            {playerIds.map((id) => (
-                <PlayerCard key={id} playerId={id}/>
+            {playerIds.map((id:number) => (
+                <ParentCard key={id} playerId={id}/>
             ))}
         </div>
     );
