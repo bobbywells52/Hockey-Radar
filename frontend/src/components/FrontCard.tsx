@@ -10,8 +10,8 @@ interface FrontCardProps {
 function FrontCard(props: FrontCardProps) {
 
     const handleClick = () => {
-         props.setShowFront(!props.showFront)
-     }
+        props.setShowFront(!props.showFront)
+    }
 
     return (
         <div style={{display: 'flex', justifyContent: 'center', padding: '1rem'}}>
@@ -35,9 +35,9 @@ function FrontCard(props: FrontCardProps) {
                             <button onClick={handleClick}>Flip Card</button>
                         </>}
                     </div>)
-             : (
-                <p> Please enter a player ID... </p>
-            )}
+                : (
+                    <p> Player loading... </p>
+                )}
         </div>
     );
 }
