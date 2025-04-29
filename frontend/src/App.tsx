@@ -5,6 +5,7 @@ import NavBar from "./components/NavBar.tsx";
 import Home from "./pages/Home.tsx";
 import Players from "./pages/Players.tsx";
 import About from "./pages/About.tsx";
+import PlayerPage from "./pages/PlayerPage";
 
 function App() {
     return (
@@ -16,6 +17,7 @@ function App() {
                         <Route path="/" element={<Home />} />
                         <Route path="/players" element={<Players />} />
                         <Route path="/about" element={<About />} />
+                        <Route path="/player/:id" element={<PlayerPage />} />
                     </Routes>
                 </main>
             </div>

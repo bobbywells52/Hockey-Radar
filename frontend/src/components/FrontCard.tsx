@@ -1,5 +1,6 @@
 import {Player} from "../Types.tsx";
 import styles from "./  PlayerCard.module.css"
+import {Link} from "react-router-dom";
 
 interface FrontCardProps {
     player: Player | null;
@@ -17,6 +18,7 @@ function FrontCard(props: FrontCardProps) {
         <div style={{display: 'flex', justifyContent: 'center', padding: '1rem'}}>
             {props.player ? (
                     <div className={styles.card}>
+                        {/*<Link to={`/player/${props.player.playerId}`} style={{ textDecoration: 'none', color: 'inherit' }}/>*/}
                         <img
                             src={props.player.headshot}
                             alt={`${props.player.firstName.default} ${props.player.lastName.default} headshot`}
