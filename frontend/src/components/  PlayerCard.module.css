@@ -1,5 +1,6 @@
 /* Container that holds the cards */
 .gridContainer {
+  min-width: 100vw;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   gap: 1.5rem;
@@ -7,11 +8,6 @@
   justify-items: center;
   align-items: stretch;
   transition: filter 0.3s ease; /* Smooth transition for blur */
-}
-
-/* Apply blur effect to the grid container when any card is hovered */
-.gridContainer:hover {
-  filter: blur(4px); /* This blurs the entire background */
 }
 
 .card {
@@ -56,14 +52,6 @@
 /* Hover effect for cards - scales and centers */
 @media (min-width: 601px) {
   .card:hover {
-    transform: scale(1.25); /* Scales the card to make it larger */
-    z-index: 10; /* Ensure hovered card is on top */
-  }
-}
-
-/* Hover effect for cards - scales and centers */
-@media (min-width: 601px) {
-  .cardBack:hover {
     transform: scale(1.25); /* Scales the card to make it larger */
     z-index: 10; /* Ensure hovered card is on top */
   }

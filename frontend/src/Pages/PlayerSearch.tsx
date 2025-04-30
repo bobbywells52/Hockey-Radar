@@ -23,7 +23,8 @@ function PlayerSearch() {
     };
 
     return (
-        <div className={styles.container}>
+        <div className={styles.searchPage}>
+            <div className={styles.contentWrapper}>
             <h1 className={styles.title}>Search for an NHL Player</h1>
             <form onSubmit={handleSearch} className={styles.searchForm}>
                 <input
@@ -36,6 +37,7 @@ function PlayerSearch() {
                 <button type="submit" className={styles.button}>Search</button>
             </form>
             {error && <div className={styles.error}>{error}</div>}
+        </div>
         </div>
     );
 }
