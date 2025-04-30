@@ -2,11 +2,11 @@ from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 import httpx
 import uvicorn
-
 app = FastAPI(debug=True)
 
 origins = [
     "http://localhost:5173",
+    "http://localhost:5174"
     # Add more origins here
 ]
 
@@ -36,6 +36,7 @@ async def get_player_data(player_id: int):
         try:
             response = await client.get(url)
             response.raise_for_status()
+            print("pulling data for player", player_id)
             return response.json()
         except httpx.HTTPError as e:
             raise HTTPException(status_code=500, detail=str(e))
@@ -43,7 +44,7 @@ async def get_player_data(player_id: int):
 
 @app.get("/nhl/team")
 async def get_team_data(team_code: str):
-    url = f"https://api-web.nhle.com/v1/roster/{team_code}/current"
+    url = f"https://api-web.nhle.com/v1/roster/{team_code}/20242025"
     async with httpx.AsyncClient() as client:
         try:
             response = await client.get(url)

@@ -1,6 +1,6 @@
 import {Player} from "../Types.tsx";
 import styles from "./  PlayerCard.module.css"
-import {Link} from "react-router-dom";
+
 
 interface FrontCardProps {
     player: Player | null;
@@ -13,7 +13,6 @@ function FrontCard(props: FrontCardProps) {
     const handleClick = () => {
         props.setShowFront(!props.showFront)
     }
-
     return (
         <div style={{display: 'flex', justifyContent: 'center', padding: '1rem'}}>
             {props.player ? (
@@ -27,14 +26,24 @@ function FrontCard(props: FrontCardProps) {
                         <h2 className={styles.name}>
                             {props.player.firstName.default} {props.player.lastName.default}
                         </h2>
-                        <img
-                            src={props.player.teamLogo}
-                            alt={`${props.player.teamCommonName.default}`}
-                            className={styles.logo}
-                        />
-                        <h3 className={styles.team}>{props.player.teamPlaceNameWithPreposition.default} {props.player.teamCommonName.default}</h3>
+                        {props.player.isActive ? (
+                            <div>
+                                <img
+                                    src={props.player.teamLogo}
+                                    alt={`${props.player.teamCommonName.default}`}
+                                    className={styles.logo}
+                                />
+                                <h3 className={styles.team}>{props.player.teamPlaceNameWithPreposition.default} {props.player.teamCommonName.default}</h3>
+                            </div>) : (props.player.inHHOF ? (<div>
+                            <img
+                                src={"https://assets.nhle.com/badges/hockey_hof.svg"}
+                                alt={"HOF"}
+                                className={styles.logo}
+                            />
+                            <h3 className={styles.team}></h3>
+                        </div>) : (<></>))}
                         {<><p className={styles.number}>#{props.player.sweaterNumber}</p>
-                            <button onClick={handleClick}>Flip Card</button>
+                            <button className={styles.flipButton} onClick={handleClick}>Flip Card</button>
                         </>}
                     </div>)
                 : (

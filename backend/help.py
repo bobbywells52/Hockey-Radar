@@ -38,28 +38,24 @@ def print_roster(data):
         print(player["firstName"]["default"], player["lastName"]["default"] + ":", str(player["id"]))
 
 
-#async def fetch_all_rosters():
+async def fetch_all_rosters():
 
-#     league_player_dict = {}
-#     for team in nhl_team_abbreviations:
-#         data = await get_team_data(team)
-#         team_player_dict = create_player_dict(data)
-#         print("Generating Dictionary for " + team)
-#         league_player_dict.update(team_player_dict)
-#
-#     return league_player_dict
-#
-#
-# player_dict = asyncio.run(fetch_all_rosters())
-# list_of_dicts = [{key: value} for key, value in player_dict.items()]
-#
-# rows = []
-# for d in list_of_dicts:
-#     for k, v in d.items():
-#         rows.append({"Player Name": k, "Player ID": v})
-#
-# df = pd.DataFrame(rows)
-# df.to_csv("players.csv", index=False)
+    league_player_dict = {}
+    for team in nhl_team_abbreviations:
+        data = await get_team_data(team)
+        team_player_dict = create_player_dict(data)
+        print("Generating Dictionary for " + team)
+        league_player_dict.update(team_player_dict)
 
-df = pd.read_csv("players.csv")
-df.to_json("players.json", orient="records", lines=True)
+    return league_player_dict
+
+
+player_dict = asyncio.run(fetch_all_rosters())
+list_of_dicts = [{key: value} for key, value in player_dict.items()]
+
+rows = []
+for d in list_of_dicts:
+    for k, v in d.items():
+        rows.append({"Player Name": k, "Player ID": v})
+        print(str(v) + ",")
+

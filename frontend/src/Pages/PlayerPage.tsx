@@ -15,7 +15,6 @@ function PlayerPage() {
 
     return (
         <div style={{ padding: '2rem' }}>
-            <h1>Player Details</h1>
             {playerId ? (
                 <ParentCard playerId={playerId} />
             ) : (

@@ -28,7 +28,7 @@ function BackCard(props: backCardProps) {
                             <li><span className="stat-label">Points:</span> <span
                                 className="stat-value">{props.player.careerTotals.regularSeason.points}</span></li>
                         </ul>
-                        {props.player.awards.some((award) => award.trophy.default === 'Stanley Cup') && (
+                        {props.player.awards && props.player.awards.some((award) => award.trophy.default === 'Stanley Cup') && (
                             <span className={styles.cupIcon}>🏆</span>
                         )}
 
