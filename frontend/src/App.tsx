@@ -12,14 +12,12 @@ function App() {
         <Router>
             <div className={styles.pageContainer}>
                 <NavBar />
-                <main className={styles.mainContent}>
                     <Routes>
                         <Route path="/" element={<Home />} />
                         <Route path="/search" element={<PlayerSearch />} />
                         <Route path="/about" element={<About />} />
                         <Route path="/player/:id" element={<PlayerPage />} />
                     </Routes>
-                </main>
             </div>
         </Router>
     );

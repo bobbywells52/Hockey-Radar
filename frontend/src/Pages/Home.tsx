@@ -4,7 +4,7 @@ import ParentCard from "../components/ParentCard";
 import styles from "../App.module.css"
 
 const shuffled = players.sort(() => 0.5 - Math.random());
-const slicedIds = [...shuffled.slice(0, 6), 8471214, 8477492, 8471675];
+const slicedIds = [...shuffled.slice(0, 9), 8471214, 8477492, 8471675];
 const playerIds = shuffleArray(slicedIds);
 
 function Home() {
