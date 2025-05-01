@@ -1,7 +1,5 @@
-import pandas as pd
 import asyncio
-from main import get_team_data
-
+from backend.API.main import get_team_data
 
 nhl_team_abbreviations = [ "ANA", "BOS", "BUF", "CGY", "CAR", "CHI", "COL",
     "CBJ", "DAL", "DET", "EDM", "FLA", "LAK", "MIN", "MTL", "NSH", "NJD", "NYI", "NYR",
@@ -50,6 +48,8 @@ async def fetch_all_rosters():
     return league_player_dict
 
 
+
+
 player_dict = asyncio.run(fetch_all_rosters())
 list_of_dicts = [{key: value} for key, value in player_dict.items()]
 
@@ -58,4 +58,5 @@ for d in list_of_dicts:
     for k, v in d.items():
         rows.append({"Player Name": k, "Player ID": v})
         print(str(v) + ",")
+
 
