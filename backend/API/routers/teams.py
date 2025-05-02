@@ -9,6 +9,7 @@ async def get_team_data(team_code: str):
     async with httpx.AsyncClient() as client:
         try:
             response = await client.get(url)
+            print(url)
             response.raise_for_status()
             return response.json()
         except httpx.HTTPError as e:
