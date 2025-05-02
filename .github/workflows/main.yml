@@ -29,15 +29,15 @@ jobs:
             ${{ runner.os }}-venv-
 
       - name: Activate Virtual ENV
-        run: python -m venv venv && source backend/.venv/bin/activate && pip3 install -r requirements.txt
+        run: python -m venv venv && source .venv/bin/activate && pip3 install -r requirements.txt
         if: steps.cache-venv.outputs.cache-hit != 'true'
 
       - name: Run Tests
-        run: backend/.venv/bin/activate && pytest
+        run: .venv/bin/activate && pytest
 
       - name: Create archive of dependencies
         run: |
-          cd backend/.venv/lib/python3.9/site-packages
+          cd .venv/lib/python3.9/site-packages
           zip -r9 ../../../../api.zip .
 
 
