@@ -12,7 +12,7 @@ jobs:
       - uses: actions/checkout@v4
 
       - name: Set up Python
-        uses: actions/setup-python@v2
+        uses: actions/setup-python@v4
         with:
           python-version: '3.9.6'
 
@@ -20,7 +20,7 @@ jobs:
         run: pip3 install virtualenv
 
       - name: Virtual ENV
-        uses: actions/cache@v2
+        uses: actions/cache@v4
         id: cache-venv
         with:
           path: venv
