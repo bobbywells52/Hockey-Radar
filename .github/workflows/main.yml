@@ -40,7 +40,10 @@ jobs:
           cd venv/lib/python3.9/site-packages
           zip -r9 ../../../../api.zip .
 
-      - name: debubbing log
+      - name: debug log 1
+        run: cd backend
+
+      - name: debug log 2
         run: echo ${PWD}
 
 
