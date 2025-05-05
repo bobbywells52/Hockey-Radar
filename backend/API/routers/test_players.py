@@ -1,7 +1,6 @@
 import pytest
 from httpx import Response
 from fastapi import FastAPI
-from httpx import AsyncClient
 import respx
 from players import router
 from httpx import AsyncClient, ASGITransport
