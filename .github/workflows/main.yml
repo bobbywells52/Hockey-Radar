@@ -41,7 +41,7 @@ jobs:
           zip -r9 ../../../../api.zip .
 
       - name: debubbing log
-        run: echo ${PWD}"
+        run: echo ${PWD}
 
 
       - name: Add API files to Zip file
