@@ -41,7 +41,7 @@ jobs:
           zip -r9 ../../../../api.zip .
 
       - name: debug log 1
-        run: cd backend
+        run: cd backend/api
 
       - name: debug log 2
         run: echo ${PWD}
