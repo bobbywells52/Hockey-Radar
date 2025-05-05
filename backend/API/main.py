@@ -19,7 +19,7 @@ app.add_middleware(
 app.include_router(players_router)
 app.include_router(teams_router)
 
-handler = Mangum(app)
+Handler = Mangum(app)
 
 @app.get("/")
 async def root():
