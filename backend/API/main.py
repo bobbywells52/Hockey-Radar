@@ -2,6 +2,7 @@ from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from routers.players import router as players_router
 from routers.teams import router as teams_router
+from mangum import Mangum
 import httpx
 import uvicorn
 app = FastAPI(debug=True)
@@ -18,6 +19,8 @@ app.add_middleware(
 
 app.include_router(players_router)
 app.include_router(teams_router)
+
+handler = Mangum(app=app)
 
 @app.get("/")
 async def root():
