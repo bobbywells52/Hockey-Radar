@@ -3,7 +3,6 @@ from fastapi.middleware.cors import CORSMiddleware
 from routers.players import router as players_router
 from routers.teams import router as teams_router
 from mangum import Mangum
-import httpx
 import uvicorn
 app = FastAPI(debug=True)
 
