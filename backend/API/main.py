@@ -2,7 +2,6 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from routers.players import router as players_router
 from routers.teams import router as teams_router
-from mangum import Mangum
 app = FastAPI()
 
 origins = ["*"]
@@ -21,5 +20,3 @@ app.include_router(teams_router)
 @app.get("/")
 async def root():
     return {"message": "Hello World"}
-
-handler = Mangum(app=app)
