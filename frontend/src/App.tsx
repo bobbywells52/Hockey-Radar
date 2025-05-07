@@ -5,7 +5,7 @@ import NavBar from "./components/NavBar.tsx";
 import Home from "./pages/Home.tsx";
 import About from "./pages/About.tsx";
 import PlayerPage from "./pages/PlayerPage";
-import PlayerSearch from "./Pages/PlayerSearch.tsx";
+import PlayerSearch from "./Pages/SearchPage.tsx";
 
 function App() {
     return (

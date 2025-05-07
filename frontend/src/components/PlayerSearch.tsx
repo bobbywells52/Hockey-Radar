@@ -23,7 +23,7 @@ function PlayerSearch() {
     };
 
     return (
-        <div className={styles.searchPage}>
+        <div className={styles.searchContainer}>
             <div className={styles.contentWrapper}>
             <h1 className={styles.title}>Search for an NHL Player</h1>
             <form onSubmit={handleSearch} className={styles.searchForm}>

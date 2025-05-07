@@ -2,7 +2,7 @@ import {players} from "../../players";
 import {shuffleArray} from "../help";
 import ParentCard from "../components/ParentCard";
 import styles from "../App.module.css"
-import PlayerSearch from "./PlayerSearch.tsx";
+import PlayerSearch from "./SearchPage.tsx";
 
 const shuffled = players.sort(() => 0.5 - Math.random());
 const slicedIds = [...shuffled.slice(0, 9), 8471214, 8477492, 8471675];
