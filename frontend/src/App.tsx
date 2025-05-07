@@ -5,7 +5,7 @@ import NavBar from "./components/NavBar.tsx";
 import Home from "./pages/Home.tsx";
 import About from "./pages/About.tsx";
 import PlayerPage from "./pages/PlayerPage";
-import PlayerSearch from "./Pages/SearchPage.tsx";
+import SearchPage from "./Pages/SearchPage.tsx";
 
 function App() {
     return (
@@ -14,7 +14,7 @@ function App() {
                 <NavBar />
                     <Routes>
                         <Route path="/" element={<Home />} />
-                        <Route path="/search" element={<PlayerSearch />} />
+                        <Route path="/search" element={<SearchPage />} />
                         <Route path="/about" element={<About />} />
                         <Route path="/player/:id" element={<PlayerPage />} />
                     </Routes>
