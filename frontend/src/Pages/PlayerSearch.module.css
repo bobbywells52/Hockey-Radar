@@ -1,9 +1,9 @@
 .searchPage {
-    min-height: 100vh;
+    min-height: 30vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 2rem;
+    padding: 3rem;
     background-color: white;
     min-width: 90vw;
 }
