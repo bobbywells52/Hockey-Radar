@@ -2,9 +2,9 @@ import './App.css';
 import styles from './App.module.css';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import NavBar from "./components/NavBar.tsx";
-import Home from "./pages/Home.tsx";
-import About from "./pages/About.tsx";
-import PlayerPage from "./pages/PlayerPage";
+import Home from "./Pages/Home.tsx";
+import About from "./Pages/About.tsx";
+import PlayerPage from "./Pages/PlayerPage";
 import SearchPage from "./Pages/SearchPage.tsx";
 
 function App() {
