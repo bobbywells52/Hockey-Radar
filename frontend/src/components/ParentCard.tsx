@@ -16,9 +16,7 @@ function ParentCard(playerId: ParentCardProps) {
     useEffect(() => {
         const fetchPlayer = async () => {
             try {
-                const response = await api.get(`/players/player`, {
-                    params: {player_id: playerId.playerId}
-                });
+                const response = await api.get(`/players/${playerId.playerId}`);
                 setPlayer(response.data);
                 console.log("Fetching data for player")
                 console.log(playerId)
