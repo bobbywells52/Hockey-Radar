@@ -12,6 +12,7 @@ Check it out here: https://www.hockeycards.locker
 - 📇 Automatically generates a player card with stats
 - 📊 Displays real-time data from the NHL API
 - ⚡ Fast and responsive interface
+- ✅ CI/CD pipeline with automated testing
 
 [^*]: Note that search by name is currently only supported for active players. For retired players search by NHL.com id instead.
 
