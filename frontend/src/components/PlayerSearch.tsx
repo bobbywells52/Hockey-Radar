@@ -1,11 +1,20 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import styles from "./PlayerSearch.module.css";
+import Players from "../../../Players.json";
+
+function getPlayerIdByName(name:string) {
+  const player = Players.find(p => p["Player Name"] === name);
+  return player ? player["Player ID"] : null;
+}
 
 function PlayerSearch() {
     const [query, setQuery] = useState("");
     const [error, setError] = useState("");
     const navigate = useNavigate();
+
+
+
 
     const handleSearch = async (e: React.FormEvent) => {
         e.preventDefault();
@@ -13,11 +22,12 @@ function PlayerSearch() {
 
         try {
             if (query) {
-                navigate(`/player/${query}`);
+                navigate(`/player/${getPlayerIdByName(query)}`);
             } else {
                 setError("Player not found.");
             }
         } catch (err) {
+            console.log(getPlayerIdByName(query))
             setError("Error searching for player.");
         }
     };
