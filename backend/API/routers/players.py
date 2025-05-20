@@ -1,11 +1,11 @@
-from fastapi import APIRouter, HTTPException
+from fastapi import APIRouter, HTTPException, Path
 import httpx
 
 router = APIRouter(prefix="/players")
 
 
-@router.get("/player")
-async def get_player_data(player_id: int):
+@router.get("/{player_id}", status_code=200)
+async def get_player_data(player_id: int = Path(gt=0)):
     url = f"https://api-web.nhle.com/v1/player/{player_id}/landing?player_id={player_id}"
 
     async with httpx.AsyncClient() as client:

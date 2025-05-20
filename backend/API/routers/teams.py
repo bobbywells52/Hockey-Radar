@@ -1,15 +1,14 @@
-from fastapi import APIRouter, HTTPException
+from fastapi import APIRouter, HTTPException, Query
 import httpx
 
 router = APIRouter(prefix="/teams")
 
-@router.get("/team")
-async def get_team_data(team_code: str):
-    url = f"https://api-web.nhle.com/v1/roster/{team_code}/20242025"
+@router.get("/{team_code}", status_code=200)
+async def get_team_data(team_code: str, season: str = Query(default='20242025')):
+    url = f"https://api-web.nhle.com/v1/roster/{team_code}/{season}"
     async with httpx.AsyncClient() as client:
         try:
             response = await client.get(url)
-            print(url)
             response.raise_for_status()
             return response.json()
         except httpx.HTTPError as e:

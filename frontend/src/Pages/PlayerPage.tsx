@@ -14,12 +14,14 @@ function PlayerPage() {
     }, [id]);
 
     return (
-        <div style={{ padding: '2rem' }}>
+        <div style={{ display: "flex", flexDirection: "column", alignItems: "center", padding: "2rem" }}>
+        <div style={{ maxWidth: '250px' }}>
             {playerId ? (
                 <ParentCard playerId={playerId} />
             ) : (
                 <p>Invalid player ID</p>
             )}
+        </div>
         </div>
     );
 }
