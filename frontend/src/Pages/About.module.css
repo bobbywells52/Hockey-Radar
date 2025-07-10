@@ -1,3 +1,11 @@
+.aboutPage {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    background-color: white;
+}
 .contentWrapper {
     max-width: 800px;
     width: 100%;
