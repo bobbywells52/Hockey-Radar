@@ -13,7 +13,7 @@
   font-family: 'Arial Black', sans-serif;
   text-align: center;
   box-sizing: border-box;
-  transition: transform 0.3s ease, box-shadow 0.3s ease, z-index 0s ease; /* Adding z-index transition */
+  /*transition: transform 0.3s ease, box-shadow 0.3s ease, z-index 0s ease; /* Adding z-index transition */
   z-index: 1; /* Default z-index for normal state */
 }
 
@@ -39,12 +39,12 @@
 }
 
 /* Hover effect for cards - scales and centers */
-@media (min-width: 601px) {
+/*@media (min-width: 601px) {
   .card:hover {
-    transform: scale(1.25); /* Scales the card to make it larger */
-    z-index: 10; /* Ensure hovered card is on top */
+    transform: scale(1.25); /* Scales the card to make it larger
+    z-index: 10; /* Ensure hovered card is on top
   }
-}
+}*/
 
 .headshot {
   width: 100%;
