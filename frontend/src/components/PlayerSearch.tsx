@@ -34,16 +34,16 @@ function PlayerSearch() {
     return (
         <div className={styles.searchContainer}>
             <div className={styles.contentWrapper}>
-                <h1 className={styles.title}>Search for an NHL Player</h1>
+                <h1 className={styles.title}>Search for an active NHL player</h1>
                 <form onSubmit={handleSearch} className={styles.searchForm}>
                     <input
                         className={styles.input}
                         type="text"
-                        placeholder="Enter player full name or id..."
+                        placeholder="Enter full name or NHL API id..."
                         value={query}
                         onChange={(e) => setQuery(e.target.value)}
                     />
-                    <button type="submit" className={styles.button}>Search</button>
+                    <button type="submit" className={styles.button}>SEARCH</button>
                 </form>
                 {error && <div className={styles.error}>{error}</div>}
             </div>
