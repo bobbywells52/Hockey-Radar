@@ -1,6 +1,6 @@
 .nav{
     width:  100%;
-    background-color: white;
+    background: linear-gradient(to bottom, #f4e4c1, #f7e9d1);
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
 }
 
@@ -8,6 +8,10 @@
 
 .nav ul {
     width: 100%;
+    color: #002868;
+    font-family: 'Arial Black', sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
     list-style: none;
     display: flex;
     justify-content: flex-end;
@@ -26,7 +30,7 @@
     text-decoration: none;
     display:  flex;
     align-items: center;
-    color: blue;
+    color: #002868
 }
 
 .navLink li:hover {
