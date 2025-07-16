@@ -7,7 +7,7 @@
 
 .contentWrapper {
     padding: 2rem;
-    background-color: #f7e9d1;
+    background-color: #FFFFFF;
     border: 4px solid #002868;
     border-radius: 1rem;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
@@ -47,13 +47,30 @@
 
 .button {
     background-color: #C1121F;
-  color: #002868;
-  border: 2px solid #b08b4f;
+    color: #002868;
+    border: 2px solid #b08b4f;
     padding: 0.75rem 1.2rem;
     font-size: 1.1rem;
     border-radius: 0.5rem;
     cursor: pointer;
     transition: background-color 0.2s ease;
+    display: flex;
+  justify-content: center;
+  bottom: 50px;
+  background-color: #C1121F;
+  color: #002868;
+  border: 2px solid #b08b4f;
+  padding: 0.4rem 0.8rem;
+  border-radius: 8px;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  font-size: clamp(0.5rem,1rem,3rem);
+  text-transform: uppercase;
+  cursor: pointer;
+  display: flex;
+  margin-top: 1rem;
+  transition: background-color 0.2s ease, transform 0.2s ease;
+  z-index: 1;
 }
 
 .button:hover {
