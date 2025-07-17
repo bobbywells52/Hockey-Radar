@@ -19,5 +19,47 @@ Link {
 }
 
 .header{
-    background-color: #f7e9d1;
+    background-color: #fdf0d5;
+}
+
+.header_content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px;
+    height: 60px;
+}
+
+.Logo{
+    color:#002868;
+    font-weight: 900;
+    letter-spacing: -1.5px;
+    font-size:23px;
+}
+
+.nav{
+
+}
+
+.nav_list{
+    display:flex;
+    column-gap: 40px;
+}
+
+.nav_item{
+
+}
+
+.nav_link{
+    font-size: 15px;
+    color:#002868;
+    font-weight: 750;
+}
+
+.hamburger{
+    display: none;
+}
+
+.bar{
+
 }
