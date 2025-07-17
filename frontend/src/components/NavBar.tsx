@@ -1,13 +1,16 @@
+import { useState } from "react";
 import styles from "./NavBar.module.css"
 import {Link} from "react-router-dom";
 
 function NavBar() {
 
+    const [isOpen, setIsOpen] = useState(false);
+
     return (
         <header class={styles.header}>
             <div class={styles.header_content}>
                 <a href="#" class={styles.Logo}> HOCKEY RADAR</a>
-                <nav className={styles.nav}>
+                <nav className={`${styles.nav} ${isOpen ? styles["nav--open"] : ""}`}>
                     <ul class={styles.nav_list}>
                         <li class={styles.nav_item}>
                             <Link class={styles.nav_link}to="/">HOME</Link>
@@ -21,7 +24,7 @@ function NavBar() {
                     </ul>
                 </nav>
 
-                <div class={styles.hamburger}>
+                 <div className={styles.hamburger} onClick={() => setIsOpen(!isOpen)}>
                     <div class={styles.bar}></div>
                     <div class={styles.bar}></div>
                     <div class={styles.bar}></div>
