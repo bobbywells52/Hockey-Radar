@@ -13,13 +13,13 @@ function NavBar() {
                 <nav className={`${styles.nav} ${isOpen ? styles["nav--open"] : ""}`}>
                     <ul className={styles.nav_list}>
                         <li className={styles.nav_item}>
-                            <Link className={styles.nav_link}to="/">HOME</Link>
+                            <Link className={styles.nav_link}to="/" onClick={() => setIsOpen(!isOpen)}>HOME</Link>
                         </li>
                         <li className={styles.nav_item}>
-                            <Link className={styles.nav_link}to="/search">SEARCH</Link>
+                            <Link className={styles.nav_link}to="/search" onClick={() => setIsOpen(!isOpen)}>SEARCH</Link>
                         </li>
                         <li className={styles.nav_item}>
-                            <Link className={styles.nav_link}to="/about">ABOUT</Link>
+                            <Link className={styles.nav_link}to="/about" onClick={() => setIsOpen(!isOpen)}>ABOUT</Link>
                         </li>
                     </ul>
                 </nav>
