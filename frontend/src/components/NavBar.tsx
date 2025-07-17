@@ -4,14 +4,30 @@ import {Link} from "react-router-dom";
 function NavBar() {
 
     return (
-        <nav className={styles.nav}>
-            <ul>
-                <li><Link to="/">Hockey Radar</Link></li>
-                <li><Link to="/">Home</Link></li>
-                <li><Link to="/search">Search</Link></li>
-                <li><Link to="/about">About</Link></li>
-            </ul>
-        </nav>
+        <header class={styles.header}>
+            <div class={styles.header_content}>
+                <a href="#" class={styles.logo}> HOCKEY RADAR</a>
+                <nav className={styles.nav}>
+                    <ul class={styles.nav_list}>
+                        <li class={styles.nav_item}>
+                            <Link class={styles.nav_link}to="/">HOME</Link>
+                        </li>
+                        <li class={styles.nav_item}>
+                            <Link class={styles.nav_link}to="/search">SEARCH</Link>
+                        </li>
+                        <li class={styles.nav_item}>
+                            <Link class={styles.nav_link}to="/about">ABOUT</Link>
+                        </li>
+                    </ul>
+                </nav>
+
+                <div class={styles.hamburger}>
+                    <div class={styles.bar}></div>
+                    <div class={styles.bar}></div>
+                    <div class={styles.bar}></div>
+                </div>
+            </div>
+        </header>
     );
 }
 
