@@ -10,8 +10,9 @@ import SearchPage from "./Pages/SearchPage.tsx";
 function App() {
     return (
         <Router>
-            <div className={styles.pageContainer}>
-                <NavBar />
+
+                <NavBar/>
+                <div className={styles.pageContainer}>
                     <Routes>
                         <Route path="/" element={<Home />} />
                         <Route path="/search" element={<SearchPage />} />
