@@ -15,7 +15,7 @@ function NavBar() {
                         <li class={styles.nav_item}>
                             <Link class={styles.nav_link}to="/">HOME</Link>
                         </li>
-                        <li class={styles.nav_item}>
+                        <li className={styles.nav_item}>
                             <Link class={styles.nav_link}to="/search">SEARCH</Link>
                         </li>
                         <li class={styles.nav_item}>
