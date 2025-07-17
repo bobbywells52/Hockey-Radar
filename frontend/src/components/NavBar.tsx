@@ -9,7 +9,7 @@ function NavBar() {
     return (
         <header class={styles.header}>
             <div class={styles.header_content}>
-                <a href="#" class={styles.Logo}> HOCKEY RADAR</a>
+                <a href="#" className={styles.Logo}> HOCKEY RADAR</a>
                 <nav className={`${styles.nav} ${isOpen ? styles["nav--open"] : ""}`}>
                     <ul class={styles.nav_list}>
                         <li class={styles.nav_item}>
