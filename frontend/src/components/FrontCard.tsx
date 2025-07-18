@@ -34,14 +34,14 @@ function FrontCard(props: FrontCardProps) {
                                     className={styles.logo}
                                 />
                                 <h3 className={styles.team}>{props.player.teamPlaceNameWithPreposition.default} {props.player.teamCommonName.default}</h3>
-                            </div>) : (props.player.inHHOF ? (<div>
+                            </div>) : (<div>
                             <img
-                                src={"https://assets.nhle.com/badges/hockey_hof.svg"}
-                                alt={"HOF"}
+                                src={"https://assets.nhle.com/logos/nhl/svg/NHL_light.svg"}
+                                alt={"NHL"}
                                 className={styles.logo}
                             />
-                            <h3 className={styles.team}></h3>
-                        </div>) : (<></>))}
+                            <h3 className={styles.team}>Free Agent</h3>
+                        </div>)}
                         {<><p className={styles.number}>#{props.player.sweaterNumber}</p>
                             <button className={styles.flipButton} onClick={handleClick}>Flip Card</button>
                         </>}
