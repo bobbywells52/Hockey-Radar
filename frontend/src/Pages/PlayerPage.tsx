@@ -15,7 +15,7 @@ function PlayerPage() {
 
     return (
         <div style={{ display: "flex", flexDirection: "column", alignItems: "center", padding: "2rem" }}>
-        <div style={{ maxWidth: '300px' }}>
+        <div style={{ maxWidth: '500px' }}>
             {playerId ? (
                 <ParentCard playerId={playerId} />
             ) : (
