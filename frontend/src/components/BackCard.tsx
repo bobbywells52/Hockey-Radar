@@ -12,7 +12,7 @@ function BackCard(props: backCardProps) {
         props.setShowFront(!props.showFront)
     }
     return (
-        <>
+        <div style={{display: 'flex', justifyContent: 'center', padding: '1rem'}}>
             {props.player ? (
                     <div className={styles.cardBack}>
                         <h3>Career Stats</h3>
@@ -36,7 +36,7 @@ function BackCard(props: backCardProps) {
 
                     </div>) :
                 (<p> Loading player</p>
-                )} </>
+                )} </div>
 
     )
 };
