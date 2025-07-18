@@ -24,7 +24,7 @@ function NavBar() {
                     </ul>
                 </nav>
 
-                 <div className={styles.hamburger} onClick={() => setIsOpen(!isOpen)}>
+                 <div className={`${styles.hamburger} ${isOpen ? styles["hamburger--open"] : ""}`} onClick={() => setIsOpen(!isOpen)}>
                     <div className={styles.bar}></div>
                     <div className={styles.bar}></div>
                     <div className={styles.bar}></div>

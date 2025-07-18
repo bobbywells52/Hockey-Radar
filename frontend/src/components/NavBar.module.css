@@ -77,10 +77,23 @@ Link {
     width: 27px;
     background-color: #002868;
     margin: 5px 0;
+    transition: all 0.3s ease-in-out;
 }
 
 .nav--open {
     transform: translateX(0) !important;
+}
+
+.hamburger--open .bar:nth-child(1){
+    transform: translateY(7px) rotate(45deg);
+}
+
+.hamburger--open .bar:nth-child(2){
+    opacity: 0;
+}
+
+.hamburger--open .bar:nth-child(3){
+    transform: translateY(-7px) rotate(-45deg);
 }
 
 @media (max-width:650px){
