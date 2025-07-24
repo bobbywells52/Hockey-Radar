@@ -115,6 +115,7 @@ Link {
 
     .nav_link{
         font-size: 14px;
+        color:rgba(0, 40, 104, .9);
     }
 
     .hamburger{
