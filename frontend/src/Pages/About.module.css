@@ -1,32 +1,124 @@
-.aboutPage {
+/* About.module.css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
     min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 2rem 5vw;
+}
+
+/* Header Section */
+.header {
+    text-align: center;
+    padding: 1.5rem;
+    border: 3px solid #002868;
+    border-radius: 1rem;
+    background-color: #fdf0d5;
+    color:#002868;
+
+}
+
+/* Main Section */
+.section {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+/* Image Column */
+.imageCol {
+    flex: 1;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 2rem;
-    background-color: white;
-}
-.contentWrapper {
-    max-width: 800px;
-    width: 100%;
-    padding: 1.5rem;
-    background-color: #f7e9d1;
-    border: 2px solid #002868;
     border-radius: 1rem;
-	@@ -19,14 +19,15 @@
 }
 
-.title {
-    font-size: clamp(25px, 5vw, 50px);
-    color: #002868;
-    margin-top: 1rem;
-    margin-bottom: .5rem;
+.aboutImage {
+    max-width: 100%;
+    height: auto;
+    border-radius: 0.75rem;
+}
+
+/* Text Column */
+.textCol {
+    flex: 2;
+    border: 3px solid #002868;
+    border-radius: 1rem;
+    padding: 2rem;
+    background-color: #fdf0d5;
+}
+
+.content h3 {
+    color:#002868;
+    margin-bottom: 1rem;
+    font-size: clamp(1.5rem, 2vw + 1rem, 2.5rem);
+}
+
+.content p {
+    color:#002868;
+    line-height: 1.6;
+    font-size: clamp(1rem, 1vw + 0.5rem, 3.5rem);
+    margin-bottom: 2rem;
+}
+
+.header h1 {
+    font-size: clamp(2rem, 3vw + 1rem, 4rem);
+}
+
+.button {
+    background-color: navy;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+/* Footer */
+.footer {
+    display: flex;
+    justify-content: center;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+}
+
+.button {
+    background-color: #002868;
+    color: white;
+    padding: 1rem 2.5rem;
+    min-width: 200px;
+    width: clamp(200px, 30%, 300px);
+    border: none;
+    border-radius: 0.75rem;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: clamp(1rem, 1vw + 0.5rem, 1.5rem);
+    transition: background-color 0.3s ease, transform 0.2s ease;
     text-align: center;
 }
 
-.paragraph {
-    font-size: clamp(12px, 2vw, 20px);
-    line-height: 1.6;
-    color: #333;
-    margin-bottom: 1rem;
+.button:hover {
+    background-color: #001f4d;
+    transform: scale(1.05);
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .section {
+        flex-direction: column;
+    }
+
+    .imageCol, .textCol {
+        width: 100%;
+    }
 }
