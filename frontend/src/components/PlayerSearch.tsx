@@ -4,9 +4,16 @@ import styles from "./PlayerSearch.module.css";
 import Players from "../../../Players.json";
 
 function PlayerSearch() {
-	const [filteredData, setFilteredData] = useState([]);
 
-	const handleFilter = (event) => {
+
+    type Player = {
+	    playerName: string;
+	    playerId: number;
+    };
+
+	const [filteredData, setFilteredData] = useState<{ playerName: string; playerId: number }[]>([]);
+
+	const handleFilter = (event: React.ChangeEvent<HTMLInputElement>) => {
 		const searchWord = event.target.value;
 		const newFilter = Players.filter((value) =>
 			value.playerName.toLowerCase().includes(searchWord.toLowerCase())
