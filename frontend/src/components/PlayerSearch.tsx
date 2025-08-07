@@ -3,19 +3,17 @@ import { Link } from "react-router-dom";
 import styles from "./PlayerSearch.module.css";
 import Players from "../../../Players.json";
 
+type Player = {
+	playerName: string;
+	playerId: number;
+};
+
 function PlayerSearch() {
-
-
-    type Player = {
-	    playerName: string;
-	    playerId: number;
-    };
-
-	const [filteredData, setFilteredData] = useState<{ playerName: string; playerId: number }[]>([]);
+	const [filteredData, setFilteredData] = useState<Player[]>([]);
 
 	const handleFilter = (event: React.ChangeEvent<HTMLInputElement>) => {
 		const searchWord = event.target.value;
-		const newFilter = Players.filter((value) =>
+		const newFilter = Players.filter((value: Player) =>
 			value.playerName.toLowerCase().includes(searchWord.toLowerCase())
 		);
 
@@ -45,9 +43,9 @@ function PlayerSearch() {
 								filteredData.length !== 0 ? styles.searchResultVisible : ""
 							}`}
 						>
-							{filteredData.slice(0, 15).map((value) => (
+							{filteredData.slice(0, 15).map((value, key) => (
 								<Link
-									key={value.playerId}
+									key={key}
 									className={styles.searchItem}
 									to={`/player/${value.playerId}`}
 								>
