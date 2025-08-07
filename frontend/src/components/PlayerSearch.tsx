@@ -1,39 +1,60 @@
-import {useState} from "react";
-import {useNavigate} from "react-router-dom";
+import { useState } from "react";
+import { Link } from "react-router-dom";
 import styles from "./PlayerSearch.module.css";
 import Players from "../../../Players.json";
 
-function getPlayerIdByName(name: string) {
-    const player = Players.find(
-        p => p["Player Name"].toLowerCase() === name.toLowerCase());
-    return player ? player["Player ID"] : null;
-}
-
 function PlayerSearch() {
-    const [query, setQuery] = useState("");
-    const [error, setError] = useState("");
-    const navigate = useNavigate();
 
-    return (
-        <div className={styles.searchContainer}>
-            <div className={styles.contentWrapper}>
-                <h1 className={styles.title}>Search for an active NHL player</h1>
-                    <div className={styles.searchInputs}>
-                         <input
-                           className={styles.input}
-                           type="text"
-                           placeholder="Enter Player Name"
-                            />
-                            <button type="submit" className={styles.button}>SEARCH</button>
-                    </div>
-                    <div className={styles.searchResult}>
-                        {Players.map((value, key) => {
-                            return <div> {value.playerName} </div>})}
-                    </div>
+  const [filteredData, setFilteredData] = useState([]);
+  const handleFilter = (event) => {
+      const searchWord = event.target.value
+      const newFilter = Players.filter((value) => {
+          return value.playerName.toLowerCase().includes(searchWord.toLowerCase());
+          });
 
-            </div>
+      if(searchWord === ''){
+          setFilteredData([])
+          }
+      else{
+      setFilteredData(newFilter)}
+      }
+
+  return (
+    <div className={styles.searchContainer}>
+      <div className={styles.contentWrapper}>
+        <div className={styles.searchForm}>
+          <h1 className={styles.title}>Search for an active NHL player</h1>
+
+          <div className={styles.searchInputs}>
+            <input
+              className={styles.input}
+              type="text"
+              placeholder="Enter Player Name"
+              onChange={handleFilter}
+            />
+
+            {filteredData.length !== 0 && (
+              <div className={styles.searchResult}>
+                {filteredData.slice(0, 15).map((value, key) => (
+                  <Link
+                    key={key}
+                    className={styles.searchItem}
+                    to={`/player/${value.playerId}`}
+                  >
+                    {value.playerName}
+                  </Link>
+                ))}
+              </div>
+            )}
+
+            <button type="submit" className={styles.button}>
+              SEARCH
+            </button>
+          </div>
         </div>
-    );
+      </div>
+    </div>
+  );
 }
 
 export default PlayerSearch;
