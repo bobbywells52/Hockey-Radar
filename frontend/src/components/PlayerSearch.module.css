@@ -85,14 +85,27 @@
 }
 
 .searchResult {
-  margin-top: 5px;
-  width: 300px;
-  height: 200px;
-  background-color: white;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  width: 100%;
+  max-height: 0;
+  opacity: 0;
+  transform: translateY(-8px);
   overflow: hidden;
-  overflow-y: auto;
+  transition:
+  opacity 0.4s ease-out 0.05s,
+  transform 0.4s ease-out 0.05s,
+  max-height 0.4s ease-out;
+  pointer-events: none;
+  transition-delay: 0s;
 }
+
+.searchResultVisible {
+  max-height: 200px; /* taller than your expected result height */
+  opacity: 1;
+  transform: translateY(0);
+  pointer-events: auto;
+  transition-delay: 0.5s;
+}
+
 
 .searchResult::-webkit-scrollbar {
   display: none;
@@ -107,8 +120,23 @@
 }
 
 .searchInputs {
+  width: 100%;
   display: flex;
   flex-direction: column;
   gap: 1rem;
   align-items: stretch;
+}
+
+.searchItem {
+  padding: 0.75rem 1rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  color: #001a4d;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.searchItem:hover {
+  background-color: #e6e6e6;
 }

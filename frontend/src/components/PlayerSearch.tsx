@@ -33,19 +33,21 @@ function PlayerSearch() {
               onChange={handleFilter}
             />
 
-            {filteredData.length !== 0 && (
-              <div className={styles.searchResult}>
-                {filteredData.slice(0, 15).map((value, key) => (
-                  <Link
-                    key={key}
-                    className={styles.searchItem}
-                    to={`/player/${value.playerId}`}
-                  >
-                    {value.playerName}
-                  </Link>
-                ))}
-              </div>
-            )}
+<div
+  className={`${styles.searchResult} ${
+    filteredData.length !== 0 ? styles.searchResultVisible : ""
+  }`}
+>
+  {filteredData.slice(0, 15).map((value, key) => (
+    <Link
+      key={key}
+      className={styles.searchItem}
+      to={`/player/${value.playerId}`}
+    >
+      {value.playerName}
+    </Link>
+  ))}
+</div>
 
             <button type="submit" className={styles.button}>
               SEARCH
