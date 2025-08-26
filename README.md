@@ -1,4 +1,4 @@
-# Hockey Card Web App
+# Hockey Radar
 
 A  web app that generates digital hockey cards for any NHL player. Built as a first MVP to showcase real-time player data using the official NHL API.
 
