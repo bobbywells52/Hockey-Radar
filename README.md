@@ -4,7 +4,7 @@ A  web app that generates digital hockey cards for any NHL player. Built as a fi
 
 ## 🚀 Live Demo
 
-Check it out here: https://www.hockeycards.locker
+Check it out here: https://www.hockey-radar.com
 
 ## Features
 
