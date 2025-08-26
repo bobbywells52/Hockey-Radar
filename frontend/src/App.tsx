@@ -21,7 +21,7 @@ function App() {
                         <Route path="/player/:id" element={<PlayerPage />} />
                     </Routes>
             </div>
-            <Analytics>
+            <Analytics />
         </Router>
     );
 }
