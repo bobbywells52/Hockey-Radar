@@ -6,6 +6,7 @@ import Home from "./Pages/Home.tsx";
 import About from "./Pages/About.tsx";
 import PlayerPage from "./Pages/PlayerPage";
 import SearchPage from "./Pages/SearchPage.tsx";
+import { Analytics } from "@vercel/analytics/react"
 
 function App() {
     return (
@@ -20,6 +21,7 @@ function App() {
                         <Route path="/player/:id" element={<PlayerPage />} />
                     </Routes>
             </div>
+            <Analytics />
         </Router>
     );
 }
