@@ -23,9 +23,16 @@ function PlayerPage() {
                 <p>Invalid player ID</p>
             )}
         </div>
+        <div
+            style={{
+			width: "100%",
+			maxWidth: "500px",
+			height: "500px",}}
+            >
         {playerId ? (
             <Radar playerId={playerId}/>
          ) : <></>}
+         </div>
         </div>
     );
 }
