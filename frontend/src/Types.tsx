@@ -76,13 +76,17 @@ export type Player = {
   playerSlug: string;
   inTop100AllTime: number;
   inHHOF: number;
-  featuredStats: {
-    season: number;
-    playoffs: {
-      subSeason: Stats;
-      career: Stats;
-    };
-  };
+  featuredStats?: {
+	season: number;
+	regularSeason?: {
+		subSeason: Stats;
+		career: Stats;
+	};
+	playoffs?: {
+		subSeason: Stats;
+		career: Stats;
+	};
+};
   careerTotals: {
     regularSeason: Stats;
     playoffs: Stats;
