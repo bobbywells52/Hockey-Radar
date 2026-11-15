@@ -4,6 +4,7 @@ import api from "../api.tsx";
 import FrontendCard from "./FrontCard";
 import BackCard from "./BackCard.tsx";
 
+
 interface ParentCardProps {
     playerId: number | null;
 }
@@ -21,7 +22,8 @@ function ParentCard(playerId: ParentCardProps) {
                 console.log("Fetching data for player")
                 console.log(playerId)
             } catch (error) {
-                // @ts-ignore
+                // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+                // @ts-expect-error
                 console.error('Error fetching player data:', error.message);
                 console.log(playerId)
             }
@@ -32,12 +34,11 @@ function ParentCard(playerId: ParentCardProps) {
         }
     }, [playerId]);
 
-    let props = {player: player, showFront: showFront, setShowFront: setShowFront};
+    const props = {player: player, showFront: showFront, setShowFront: setShowFront};
 
     return (
         <div>
             {showFront ? (<FrontendCard {...props} />) : <BackCard {...props}/>}
-
         </div>)
 }
 

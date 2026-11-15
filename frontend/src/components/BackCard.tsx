@@ -4,6 +4,7 @@ import {Player} from "../Types.tsx";
 interface backCardProps {
     player: Player | null;
     showFront: boolean;
+    // eslint-disable-next-line @typescript-eslint/no-unsafe-function-type
     setShowFront: Function;
 }
 

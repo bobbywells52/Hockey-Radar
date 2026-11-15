@@ -89,3 +89,23 @@ export type Player = {
   };
   awards: Award[];
 };
+
+export type RadarStats = {
+	goals: number;
+	assists: number;
+	points: number;
+	shots: number;
+	powerPlayGoals: number;
+	gameWinningGoals: number;
+};
+
+export type PlayerPercentiles = {
+	season: number;
+	minimumGames: number;
+	comparisonPlayerCount: number;
+	playerId: number;
+	playerName: string;
+	gamesPlayed: number;
+	stats: RadarStats;
+	percentiles: RadarStats;
+};

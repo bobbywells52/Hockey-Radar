@@ -1,10 +1,11 @@
 import { useParams } from "react-router-dom";
 import { useEffect, useState } from "react";
 import ParentCard from "../components/ParentCard";
-
+import Radar from "../components/Radar";
 function PlayerPage() {
     const { id } = useParams<{ id: string }>();
     const [playerId, setPlayerId] = useState<number | null>(null);
+
 
     useEffect(() => {
         if (id) {
@@ -22,6 +23,16 @@ function PlayerPage() {
                 <p>Invalid player ID</p>
             )}
         </div>
+        <div
+            style={{
+			width: "100%",
+			maxWidth: "500px",
+			height: "500px",}}
+            >
+        {playerId ? (
+            <Radar playerId={playerId}/>
+         ) : <></>}
+         </div>
         </div>
     );
 }
