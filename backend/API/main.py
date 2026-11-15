@@ -3,6 +3,8 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from routers.players import router as players_router
 from routers.teams import router as teams_router
+from routers.percentiles import router as percentiles_router
+
 app = FastAPI()
 
 origins = ["*"]
@@ -17,6 +19,7 @@ app.add_middleware(
 
 app.include_router(players_router)
 app.include_router(teams_router)
+app.include_router(percentiles_router)
 
 @app.get("/")
 async def root():
