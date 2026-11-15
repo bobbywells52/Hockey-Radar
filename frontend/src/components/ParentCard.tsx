@@ -3,7 +3,6 @@ import {Player} from "../Types.tsx";
 import api from "../api.tsx";
 import FrontendCard from "./FrontCard";
 import BackCard from "./BackCard.tsx";
-import Radar from "./Radar.tsx";
 
 
 interface ParentCardProps {
