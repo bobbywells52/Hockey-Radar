@@ -1,33 +1,57 @@
+
 # Hockey Radar
 
-A  web app that generates digital hockey cards for any NHL player. Built as a first MVP to showcase real-time player data using the official NHL API.
+Hockey Radar is a web app I built to make exploring NHL player stats a little more interesting. It generates digital hockey cards using data from the NHL API, combining the look of traditional hockey cards with modern data visualizations.
 
-## 🚀 Live Demo
+The project started as a simple way to look up players and their stats, and has since grown to include interactive radar charts that show how players stack up against the rest of the league.
 
-Check it out here: https://www.hockey-radar.com
+## Live Demo
+
+**[hockey-radar.com](https://www.hockey-radar.com)**
 
 ## Features
 
-- 🔍 Search for any NHL player[^*] 
-- 📇 Automatically generates a player card with stats
-- 📊 Displays real-time data from the NHL API
-- ⚡ Fast and responsive interface
-- ✅ CI/CD pipeline with automated testing
+- **Player search:** Search for active NHL players by name and generate their hockey cards.
+- **Digital hockey cards:** Flip between a player's card and their current-season statistics.
+- **Performance radar charts:** Visualize a player's percentile rankings across goals, assists, points, shots, and power-play goals.
+- **League-wide comparisons:** Percentiles are calculated using per-game statistics from NHL skaters who meet a minimum games-played threshold.
+- **Current NHL data:** Player information and statistics come directly from the NHL API.
+- **Automated testing and deployment:** CI/CD workflows help keep the app tested and up to date.
 
-[^*]: Note that search by name is currently only supported for active players. For retired players search by NHL.com id instead.
+*Note: Name-based search currently supports active NHL players. Retired players can still be accessed using their NHL player ID.*
 
 ## Tech Stack
 
-- **Frontend**: [React](https://reactjs.org/) – deployed on [Vercel](https://vercel.com/)
-- **Backend**: [FastAPI](https://fastapi.tiangolo.com/) – deployed on [Render](https://render.com/)
-- **Data Source**: [NHL API](https://api-web.nhle.com/v1)
+**Frontend**
+- React, TypeScript, and Vite
+- Nivo for interactive radar charts
+- CSS Modules for styling
+- Hosted on Vercel
 
+**Backend**
+- Python and FastAPI
+- NHL API for player information and league-wide statistics
+- In-memory caching for percentile calculations
+- Hosted on Render
 
-## Roadmap
-This is just the first MVP. Upcoming features may include:
+## How the Percentiles Work
 
-- 🖼️ Dynamic card designs
+The radar charts compare players using per-game statistics rather than season totals, so players aren't penalized simply for having played fewer games.
 
-- 📈 Advanced stats & graphs
+When the backend needs fresh league data, it retrieves NHL skater statistics and calculates percentile rankings for each category. Those results are cached for six hours to avoid making unnecessary API requests.
 
-- 📲 Mobile optimization
+Players must have appeared in at least 10 games during the current season to qualify for the comparison.
+
+For example, a player in the 90th percentile for goals per game ranks above approximately 90% of eligible NHL skaters in that category.
+
+## What's Next
+
+A few things I'd like to add as the project grows:
+
+- Side-by-side player comparisons
+- More advanced statistics and visualizations
+- Additional hockey card designs
+- Better search support for retired players
+- Continued improvements to the mobile experience
+
+This is an ongoing personal project and a chance for me to combine two things I enjoy: hockey and building software.
