@@ -68,7 +68,6 @@ function Radar({ playerId }: RadarProps) {
 	const {
 		playerName,
 		percentiles,
-		season,
 		comparisonPlayerCount,
 		minimumGames,
 	} = playerPercentiles;
@@ -81,15 +80,29 @@ function Radar({ playerId }: RadarProps) {
 	
 return (
 	<div style={{ width: "100%", height: "550px" }}>
-		<h2 style={{ textAlign: "center", marginBottom: "0.5rem" }}>
-			{playerName} — Performance Percentiles
-		</h2>
-
-		<p style={{ textAlign: "center", color: "#666" }}>
-			Per-game stats · {season} season · Compared with{" "}
-			{comparisonPlayerCount} NHL skaters ({minimumGames}+ games played)
-		</p>
-
+        <h2
+        style={{
+            fontFamily: '"Roboto Slab", Georgia, serif',
+            fontWeight: 700,
+            fontSize: "1.75rem",
+            textAlign: "center",
+            marginBottom: "0.5rem",
+        }}
+    >
+        {playerName} — Performance Percentiles
+    </h2>
+        <p
+            style={{
+                fontFamily: '"Roboto Slab", Georgia, serif',
+                fontWeight: 400,
+                fontSize: "0.9rem",
+                textAlign: "center",
+                color: "#666",
+            }}
+        >
+            Per-game stats · 2026-27 season · Compared with{" "}
+            {comparisonPlayerCount} NHL skaters ({minimumGames}+ games played)
+        </p>
 		<div style={{ height: "450px" }}>
 			<ResponsiveRadar
 				data={data}
