@@ -29,7 +29,7 @@
   border: 4px solid #ccaa66;
   border-radius: 12px;
   padding: 1rem;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: "Roboto Slab", Georgia, serif;
   text-align: center;
   color: #222;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
@@ -91,10 +91,12 @@
   margin: 0;
   font-size: 1.2rem;
   text-transform: uppercase;
-  letter-spacing: 1px;
   border-bottom: 2px solid #ccaa66;
   padding-bottom: 0.5rem;
   color: #2c1d0b;
+  font-family: inherit;
+	font-weight: 700;
+	letter-spacing: 1.5px;
 }
 
 .cardBack ul {
@@ -109,6 +111,8 @@
   display: flex;
   justify-content: space-between;
   border-bottom: 1px dashed #c9b48a;
+  font-family: inherit;
+	font-weight: 400;
 }
 
 .cardBack li:last-child {
