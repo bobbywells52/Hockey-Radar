@@ -20,19 +20,62 @@ The project started as a simple way to look up players and their stats, and has 
 
 *Note: Name-based search currently supports active NHL players. Retired players can still be accessed using their NHL player ID.*
 
-## Tech Stack
+## Architecture
 
-**Frontend**
-- React, TypeScript, and Vite
-- Nivo for interactive radar charts
-- CSS Modules for styling
-- Hosted on Vercel
+Hockey Radar uses a React frontend and a FastAPI backend, with the NHL API providing player information and statistics.
 
-**Backend**
-- Python and FastAPI
-- NHL API for player information and league-wide statistics
-- In-memory caching for percentile calculations
-- Hosted on Render
+```mermaid
+flowchart TB
+    User(["User"])
+
+    subgraph Frontend["Frontend — Vercel"]
+        React["React + TypeScript + Vite"]
+        Search["Player Search"]
+        Cards["Digital Hockey Cards"]
+        Radar["Nivo Radar Charts"]
+        Axios["Axios API Client"]
+
+        React --> Search
+        React --> Cards
+        React --> Radar
+        Search --> Axios
+        Cards --> Axios
+        Radar --> Axios
+    end
+
+    subgraph Backend["Backend — Render"]
+        API["FastAPI"]
+        Players["Player & Team Routes"]
+        Percentiles["Percentile Endpoints"]
+        Cache[("In-Memory Cache<br/>6-Hour TTL")]
+        Calculator["Percentile Calculator"]
+
+        API --> Players
+        API --> Percentiles
+        Percentiles --> Cache
+        Cache -.->|"Cache miss"| Calculator
+        Calculator --> Cache
+    end
+
+    subgraph NHL["NHL APIs"]
+        Web["NHL Web API"]
+        Stats["NHL Stats REST API"]
+    end
+
+    User --> React
+    Axios <-->|"REST / JSON"| API
+    Players <--> Web
+    Calculator <--> Stats
+
+    GitHub["GitHub"] --> CI["GitHub Actions<br/>Automated Tests"]
+    GitHub -.-> React
+    GitHub -.-> API
+```
+
+The backend handles player lookups and league-wide statistics. Percentile rankings are calculated using per-game rates for eligible skaters, then cached for six hours to reduce requests to the NHL API.
+
+The frontend uses those results to generate interactive hockey cards and radar charts. There is currently no database.
+
 
 ## How the Percentiles Work
 
